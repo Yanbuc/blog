@@ -1,0 +1,73 @@
+<div style="width:100%;" >
+    <select id="opn">
+        <option selected="selected">4</option>
+        <option>5</option>
+        <option>6</option>
+    </select><br />
+    <table width="100%">
+        <tr width="80%">
+            <td width="25%">序号</td>
+            <td width="25%">博客分类</td>
+            <td width="25%">博客标题</td>
+            <td width="25%">操作</td>
+        </tr>
+        <volist name="data" id="da" key="k" >
+            <tr>
+                <td>{++$xu}</td>
+                <td>{$da.cat}</td>
+                <td>{$da.title}</td>
+                <td><span value="{$da['id']}" onclick="edit()">编辑</span>&nbsp;&nbsp;&nbsp;&nbsp;<span value="{$da['id']}" class="del">删除</span></td>
+            </tr>
+        </volist>
+
+    </table>
+    <span>
+        {$page}
+    </span>
+</div>
+<script type="text/javascript" src="{$Think.const.H_UI_PATH}lib/jquery/1.9.1/jquery.min.js"></script>
+<script>
+   function edit(){
+       alert('hello');
+   }
+   $('.del').click(function(){
+       var s =$(this).attr('value');
+       $.ajax({
+           url:"{:U('Admin/PutBlog/deleteBlog')}",
+           type:'post',
+           data:{'id':JSON.stringify(s)},
+           dataType:'json',
+           success:function(data){
+               //alert(data);
+               alert(data.information);
+               window.location.reload();
+           },
+           error:function(e,x){
+               console.log(x);
+           }
+       });
+
+   });
+   $('select#opn').change(function(){
+       var url = "{:U('Admin/PutBlog/showList')}";
+       url = url.replace('.html','');
+       var a = $('option:selected').text();
+       url = url + '/'+'size'+'/'+a;
+       window.location= url;
+   });
+   $(document).ready(
+             function(){
+                 var c = $('option');
+
+                 var i=0;
+                 for(;i<c.length;i++){
+                     if (c[i].text == '{$size}'){
+                        c[i].selected=true;
+                         break;
+                     }
+                 }
+             }
+
+   );
+
+</script>

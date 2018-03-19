@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>月歌首页</title>
+    <link rel="Shortcut Icon" href="{$Think.const.H_UI_PATH}favicon.ico" />
+    <style>
+      a:link {
+          color:purple;
+          text-decoration: none;
+      }
+      a:visited {
+          color:purple;
+          text-decoration: none;
+      }
+      a:hover {
+          color:purple;
+          text-decoration: none
+      }
+    </style>
+</head>
+<body>
+      <h>欢迎来到月歌的博客</h>
+      <div>
+          <h3>文章分类</h3>
+          <table>
+           <volist name="type" id="data">
+               <tr>
+                   <td><a href="{:U('Home/SendBlog/showList',array( 'id' => $data['id']))}">{$data.category}</a></td>
+               </tr>
+           </volist>
+          </table>
+      </div>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+<include file="Public:header"/>
+<body style="background-image: url({$Think.const.IMAGE_PATH}admin.jpg);background-size: 100%;">
+<div>
+    <form action="{:U('Admin/Index/checkLogin')}" method="post" class="form form-horizontal" id="demoform-1"style="width:50%" >
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3" style="color:greenyellow;">账号</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" autocomplete="off" placeholder="帐号" name="acc" id="acc" style="width:200px;">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3" style="color:greenyellow;" >密码</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="password" class="input-text" autocomplete="off" placeholder="密码" name="pwd" id="pwd" style="width:200px;">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3" style="color:greenyellow;">验证码</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" autocomplete="off" placeholder="验证码" name="ck" id="ck" style="width:200px;"><br/><br/>
+                <img src="{:U('Admin/Index/showCheckCode')}" onclick="this.src='{:U(\'Admin/Index/showCheckCode\')}'" />
+            </div>
+        </div>
+        <div class="row cl" >
+            <div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+                <input class="btn btn-primary radius" type="button" value="登录" id="sub" >
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+<script>
+      $('#sub').click(function(){
+          var ob={};
+          ob.acc = $('#acc').val();
+          ob.pwd = $('#pwd').val();
+          ob.ck  = $('#ck').val();
+          $.ajax({
+                url:"{:U('Admin/Index/checkLogin')}",
+                type:'post',
+                data:{
+                    "data":JSON.stringify(ob),
+                 },
+                 dataType:'JSON',
+                success:function(data,textStatus){
+
+                    if (data.status == 200) {
+                         window.location = data.data;
+                   }
+                   else {
+                         console.log(data.information);
+                   }
+                 },
+               error :function(e,r,x){
+                    console.log(e);
+               }
+          });
+
+      });
+
+</script>
+<include file="Public:footer"/>
+
+
+
+
