@@ -11,5 +11,9 @@ use \Common\Model\BaseModel;
 
 class CategoryModel extends BaseModel
 {
-
+    //返回数据库之中的记录的数目
+   public function getCount(){
+       $number = $this->count();
+       return $number;
+   }
 }

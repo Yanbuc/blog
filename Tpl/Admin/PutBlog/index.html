@@ -55,10 +55,18 @@
      <div id="asd">
   <ul id="Huifold1" class="Huifold">
       <li class="item">
+          <h4>字典管理<b>+</b></h4>
+          <div class="info" style="width:100%;padding:0px;">
+              <button style="width:100%;margin:0px;" type="button" onclick="showDictionaryList()">字典列表</button>
+              <br><button style="width:100%;margin:0px;" type="button" >添加字典</button>
+          </div>
+      </li>
+      <li class="item">
           <h4>博客管理<b>+</b></h4>
           <div class="info" style="width:100%;padding:0px;">
               <button style="width:100%;margin:0px;" type="button" onclick="showList()">博客列表</button>
               <br><button style="width:100%;margin:0px;" type="button" onclick="upBlog()">上传博客</button>
+              <br><button style="width:100%;margin:0px;" type="button">上传博文所需要的文件</button>
           </div>
       </li>
       <li class="item">
@@ -123,26 +131,16 @@
     function showList(){
        var url= '{:U(\'Admin/PutBlog/showList\')}';
        $('#ifm').attr('src',url);
-       /*
-         $.ajax({
-            url:url,
-            type:'post',
-            data:{
-                'flag':false
-            },
-            //dataType:'json',
-            success:function(data){
-                $('#bd').html('');
-                $('#bd').html(data);
-            },
-            error:function(x,e,r){
-                console.log(e);
-            }
-
-        });
-        */
 
     }
+    //展示字典列表
+
+    function showDictionaryList(){
+        var url= '{:U(\'Admin/Dictionary/index\')}';
+        $('#ifm').attr('src',url);
+    }
+
+
     function upBlog() {
         var url= "{:U('Admin/PutBlog/showUploadBlog')}";
         $('#ifm').attr('src',url);

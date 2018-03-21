@@ -23,34 +23,64 @@
 
 </head>
 <body>
-
+    <form  action="<?php echo U('PutBlog/uploadBlog');?>" enctype="multipart/form-data" method="post" id="fm" name="myform" style="position: absolute;left:200px;">
+    <table class="table table-border table-bordered radius">
+        <thead>
+        <tr>
+            <th>分类</th>
+            <th> <select>
+                <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$da): $mod = ($i % 2 );++$i;?><option value="<?php echo ($da["id"]); ?>">
+                        <?php echo ($da["category"]); ?>
+                    </option><?php endforeach; endif; else: echo "" ;endif; ?>
+            </select>
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th>博客题目</th>
+            <td><input type="text" class="input-text" autocomplete="off" placeholder="博客题目" name="title" id="acc" style="width:200px;">
+            </td>
+        </tr>
+        <tr>
+            <th>博文选择</th>
+            <td><input type="file" multiple name="file"></td>
+        </tr>
+        <tr>
+            <th><input class="btn btn-primary radius" type="button" value="上传" id="sub" ></th>
+        </tr>
+        </tbody>
+    </table>
+    </form>
+<!--
 <form  action="<?php echo U('PutBlog/uploadBlog');?>" enctype="multipart/form-data" method="post" id="fm" name="myform" style="position: absolute;left:200px;">
-   <div>
+   <div class="row cl">
+       <label class="form-label col-xs-4 col-sm-3" >分类</label>
         <select>
             <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$da): $mod = ($i % 2 );++$i;?><option value="<?php echo ($da["id"]); ?>">
                     <?php echo ($da["category"]); ?>
                 </option><?php endforeach; endif; else: echo "" ;endif; ?>
         </select>
       </div>
-
     <div class="row cl">
         <label class="form-label col-xs-4 col-sm-3" >博客题目</label>
         <div class="formControls col-xs-8 col-sm-9">
             <input type="text" class="input-text" autocomplete="off" placeholder="博客题目" name="title" id="acc" style="width:200px;">
         </div>
     </div>
-    <span class="btn-upload form-group">
-         <!--    <input class="input-text upload-url radius" type="text" name="blog" id="uploadfile-1" readonly><a href="javascript:void(0);" class="btn btn-primary radius"><i class="iconfont">&#xf0020;</i> 浏览文件</a>-->
-             <input type="file" multiple name="file">
-        <!-- <input type="file" multiple name="file" class="input-file"> -->
+    <div class="formControls col-xs-8 col-sm-9">
+    <span >
+         <label >博文选择</label>  <input type="file" multiple name="file">
     </span>
+    </div>
 
     <div class="formControls col-xs-8 col-sm-9">
          <span class="btn-upload form-group" >
-              <input class="btn btn-primary radius" type="button" value="登录" id="sub" >
+              <input class="btn btn-primary radius" type="button" value="上传" id="sub" >
          </span>
     </div>
 </form>
+-->
 </body>
 <script>
     $('#sub').click(function(){
