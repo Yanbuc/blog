@@ -16,3 +16,13 @@
      $p->setConfig('theme','%FIRST% %UP_PAGE% %LINK_PAGE% %DOWN_PAGE% %END% %HEADER%');
      return $p;
  }
+ /*
+  * 获取文件的路径
+  */
+
+
+ function get_image_url($str){
+     $preg='/\.\/article\/image\/\d*\/\d*\.[jpg|jpeg|png|bmp|gif]*/i';
+     preg_match_all($preg, $str,$data);
+     return current($data);
+ }

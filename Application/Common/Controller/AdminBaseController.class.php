@@ -80,4 +80,8 @@ class AdminBaseController extends Controller
 
     }
 
+    public function _empty(){
+          $this->display('Admin@Index/index');
+    }
+
 }

@@ -42,7 +42,9 @@
 </table>
 <span>
       <?php echo ($page); ?>
-    </span>
+</span>
+{/blog/Public}
+
 </body>
 
 <script type="text/javascript" src="<?php echo (H_UI_STATIC_PATH); ?>h-ui/js/H-ui.js"></script>

@@ -11,44 +11,42 @@ use \Common\Controller\AdminBaseController;
 use \Think\Upload;
 use \Common\Model\BlogsModel;
 use \Common\Model\CategoryModel;
+use \Common\Model\PictureModel;
 class PutBlogController extends AdminBaseController
 {
     protected $blogsModel = null;
     protected $categoryModel = null;
+    protected $pictureModel = null;
 
     public function __construct()
     {
         parent::__construct();
         $this->blogsModel = new BlogsModel();
         $this->categoryModel = new CategoryModel();
+        $this->pictureModel = new PictureModel();
     }
     //展示后台的登录之后的页面。
     public function index(){
         $this->display('index');
     }
 
+    /*
+     * 仅仅是上传博客
+     */
+
     public function uploadBlog(){
 
-         $data= I('post.');
-         $data['cid'] =(int) $data['cid'];
-         $config =  C('UPLOAD_CONFIG');
-         $config['saveName'] = $this->blogsModel->getId().'';
-         $upload = new Upload($config);
-         $info = $upload->upload();
-         if (! $info) {
-             $this->ajaxError('',404,$upload->getError());
-         }
-         else {
-             $avatar = './article/'.$info['file']['savename'];
-             $data['avatar'] =$avatar;
-             $rn = $this->addBlog($data);
-             if ($rn) {
-                 $this->ajaxSuccess('',200,'成功');
-             }
-             else {
-                 $this->ajaxError('',404,'上传失败');
-             }
-         }
+        if (IS_POST) {
+            $rn = $this->blogsModel->addData();
+            if ($rn['flag']) {
+               $this->success("文章添加成功");
+            } else {
+                $this->error($rn['information']);
+            }
+        }
+        else {
+            $this->error('出错了');
+        }
 
     }
 
@@ -86,6 +84,11 @@ class PutBlogController extends AdminBaseController
 /*
  * 处理数据，增加博客的类别 文字
  */
+
+
+/*
+ * 删除博客的接口
+ */
     public function delData($data){
         $cat = $this->categoryModel->selectData();
         $i=0;
@@ -115,10 +118,10 @@ class PutBlogController extends AdminBaseController
            }
            $rn = $this->blogsModel->deleteData($data);
            if ($rn) {
-               $this->ajaxSuccess('',200,'删除用户成功');
+               $this->ajaxSuccess('',200,'删除文章成功');
            }
            else {
-               $this->ajaxError('',404,'删除用户失败');
+               $this->ajaxError('',404,'删除文章失败');
            }
 
     }
@@ -126,15 +129,32 @@ class PutBlogController extends AdminBaseController
      * 删除文件
      */
     protected function deletefile($data){
-       $rn = $this->blogsModel->selectById($data);
-        if (file_exists($rn)) {
-           $r= unlink($rn);
-           return $r;
-        }
-        else {
-            return false;
-        }
+        $cn['bid'] = $data['id'];
+        $rn = $this->pictureModel->selectById($cn);
+        $this->pictureModel->deleteData($cn);
+        foreach( $rn as $key => $value){
+            if (file_exists($value['avatar'])) {
+                unlink($value['avatar']);
+                $dir = $this->getDirPath($value['avatar']);
+               if (count(scandir($dir)) === 2){
+                   rmdir($dir);
+               }
+            }
 
+        }
+        return $rn;
+
+    }
+
+    protected function getDirPath($data){
+      $temp = explode("/",$data);
+      $i=0;
+      $path='';
+      for(;$i<count($temp)-2;$i++){
+          $path = $path.$temp[$i].'/';
+      }
+      $path = $path.$temp[$i];
+       return $path;
     }
 
 

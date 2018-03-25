@@ -46,18 +46,19 @@
          width:20%;
          height:100%;
          float:left;
-
      }
     #bd{
         position: absolute;
         left:20%;
         width:80%;
-       height:100%;
+        height:100%;
+        overflow-x: hidden;
      }
     body{
          height:100%;
          margin:0px;
-        overflow:hidden;
+
+
     }
     html{
         height:100%;
@@ -116,23 +117,11 @@
      </div>
 
 <div id="bd">
+    <iframe style="width:100%;height:100%;overflow-x:hidden;"  id="ifm" >
 
-    <iframe style="width:100%;height:100%;"  id="ifm">
-           <html>
-               <head>
-                    <meta charset="utf-8">
-               </head>
-              <body>
-                    欢迎来到月歌的后台
-              </body>
-           </html>
     </iframe>
 </div>
-
 </div>
-  <!-- 左边的页面 -->
-
-
 </body>
 
 <script type="text/javascript" src="<?php echo (H_UI_STATIC_PATH); ?>h-ui/js/H-ui.js"></script>
