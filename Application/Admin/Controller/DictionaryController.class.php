@@ -29,6 +29,18 @@ class DictionaryController extends AdminBaseController
         $this->display();
     }
 
+    public function fenji(){
+
+        $data = $this->category->selectData();
+        $data = \Org\sl\Data::tree($data);
+        $this->assign('data',$data);
+        $this->display();
+        //print_r($data);
+        //$this->display();
+
+
+    }
+
 
 
 }

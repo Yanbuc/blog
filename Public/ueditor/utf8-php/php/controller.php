@@ -14,7 +14,7 @@ foreach ($CONFIG as $k => $v) {
         $CONFIG[$k]=$base_path.$v;
     }
 }
-
+//
 $action = $_GET['action'];
 
 switch ($action) {

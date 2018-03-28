@@ -59,7 +59,8 @@
           <h4>字典管理<b>+</b></h4>
           <div class="info" style="width:100%;padding:0px;">
               <button style="width:100%;margin:0px;" type="button" onclick="showDictionaryList()">字典列表</button>
-              <br><button style="width:100%;margin:0px;" type="button" >添加字典</button>
+              <br/><button style="width:100%;margin:0px;" type="button" >添加字典</button><br/>
+              <button style="width:100%;margin:0px;" type="button" onclick="fenji()">字典分级</button>
           </div>
       </li>
       <li class="item">
@@ -67,7 +68,7 @@
           <div class="info" style="width:100%;padding:0px;">
               <button style="width:100%;margin:0px;" type="button" onclick="showList()">博客列表</button>
               <br><button style="width:100%;margin:0px;" type="button" onclick="upBlog()">上传博客</button>
-              <br><button style="width:100%;margin:0px;" type="button">上传博文所需要的文件</button>
+
           </div>
       </li>
       <li class="item">
@@ -135,5 +136,12 @@
         $('#ifm').attr('src',url);
         // $('#ifm').src=url;
     }
+
+    function fenji(){
+        var url= '{:U(\'Admin/Dictionary/fenji\')}';
+        $('#ifm').attr('src',url);
+
+    }
+
 
 </script>

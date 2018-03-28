@@ -107,6 +107,7 @@ class PutBlogController extends AdminBaseController
  *  删除Blog的函数
  */
     public function deleteBlog(){
+
            $data['id']= I('post.id');
            if (empty($data['id'])) {
                $this->ajaxError('',404,'缺少输入的数据');
@@ -131,6 +132,9 @@ class PutBlogController extends AdminBaseController
     protected function deletefile($data){
         $cn['bid'] = $data['id'];
         $rn = $this->pictureModel->selectById($cn);
+        if (! $rn){
+            return true;
+        }
         $this->pictureModel->deleteData($cn);
         foreach( $rn as $key => $value){
             if (file_exists($value['avatar'])) {

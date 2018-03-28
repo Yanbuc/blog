@@ -24,40 +24,8 @@
 </head>
 
 <body>
-<table class="table table-border table-bordered radius">
-    <thead>
-    <tr>
-        <th>编号</th>
-        <th>类别</th>
-        <th>操作</th>
-    </tr>
-    </thead>
-    <tbody>
-    <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$da): $mod = ($i % 2 );++$i;?><tr>
-            <th><?php echo ++$xu;?></th>
-            <td><?php echo ($da["category"]); ?></td>
-            <td>编辑&nbsp;&nbsp;&nbsp;&nbsp;<span onclick="editConfirm('<?php echo ($da['id']); ?>')" >删除</span></td>
-        </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-    </tbody>
-</table>
-<span>
-      <?php echo ($page); ?>
-</span>
-
+<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><span><?php echo ($v['_html']); echo ($v['fg']); ?>&nbsp;<?php echo ($v['category']); ?></span><br/><?php endforeach; endif; else: echo "" ;endif; ?>
 </body>
-<script type="text/javascript">
-    //编辑验证
-    function editConfirm( id){
-        layer.confirm('是否删除?', {icon: 3, title:'提示'}, function(index){
-           // alert(id);
-
-            layer.close(index);
-        });
-
-    }
-
-   // layer.msg("只想弱弱提示");
-</script>
 
 <script type="text/javascript" src="<?php echo (H_UI_STATIC_PATH); ?>h-ui/js/H-ui.js"></script>
 </html>

@@ -26,3 +26,26 @@
      preg_match_all($preg, $str,$data);
      return current($data);
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

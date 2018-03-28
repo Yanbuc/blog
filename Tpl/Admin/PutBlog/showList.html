@@ -1,51 +1,62 @@
-<div style="width:100%;" >
-    <select id="opn">
-        <option selected="selected">4</option>
-        <option>5</option>
-        <option>6</option>
-    </select><br />
-    <table width="100%">
-        <tr width="80%">
-            <td width="25%">序号</td>
-            <td width="25%">博客分类</td>
-            <td width="25%">博客标题</td>
-            <td width="25%">操作</td>
+<include file="Public:header" />
+<table class="table table-border table-bordered">
+    <thead>
+    <tr>
+        <th>序号</th>
+        <th>博客分类</th>
+        <th>博客标题</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    <volist name="data" id="da" key="k" >
+        <tr>
+            <td>{++$xu}</td>
+            <td>{$da.cat}</td>
+            <td>{$da.title}</td>
+            <td><span value="{$da['id']}" onclick="edit()">编辑</span>&nbsp;&nbsp;&nbsp;&nbsp;<span value="{$da['id']}" class="del" >删除</span></td>
         </tr>
-        <volist name="data" id="da" key="k" >
-            <tr>
-                <td>{++$xu}</td>
-                <td>{$da.cat}</td>
-                <td>{$da.title}</td>
-                <td><span value="{$da['id']}" onclick="edit()">编辑</span>&nbsp;&nbsp;&nbsp;&nbsp;<span value="{$da['id']}" class="del">删除</span></td>
-            </tr>
-        </volist>
-
-    </table>
-    <span>
-        {$page}
-    </span>
-</div>
+    </volist>
+    </tbody>
+</table>
 <script type="text/javascript" src="{$Think.const.H_UI_PATH}lib/jquery/1.9.1/jquery.min.js"></script>
 <script>
    function edit(){
        alert('hello');
    }
+
+
+
+
    $('.del').click(function(){
-       var s =$(this).attr('value');
-       $.ajax({
-           url:"{:U('Admin/PutBlog/deleteBlog')}",
-           type:'post',
-           data:{'id':JSON.stringify(s)},
-           dataType:'json',
-           success:function(data){
-               //alert(data);
-               alert(data.information);
-               window.location.reload();
-           },
-           error:function(e,x){
-               console.log(x);
-           }
+       var id =$(this).attr('value');
+       layer.confirm('是否删除', {icon: 3, title:'提示'}, function(index){
+           $.ajax({
+               url:"{:U('Admin/PutBlog/deleteBlog')}",
+               type:'post',
+               data:{'id':JSON.stringify(id)},
+               dataType:'json',
+               success:function(data){
+                  if (data.status == 200){
+                       layer.msg('删除成功', {icon: 1,time:2000},function(){
+                           window.location.reload();
+                       });
+                   }
+                   else {
+                       layer.msg('删除失败', {icon: 2,time:2000},function(){
+                           window.location.reload();
+                       });
+                   }
+               },
+               error:function(e,x){
+                   console.log(x);
+               }
+           });
+
+           layer.close(index);
        });
+
+
 
    });
    $('select#opn').change(function(){

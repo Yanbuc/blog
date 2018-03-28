@@ -13,7 +13,7 @@
         <tr>
             <th>{++$xu}</th>
             <td>{$da.category}</td>
-            <td>编辑&nbsp;&nbsp;&nbsp;&nbsp;删除</td>
+            <td>编辑&nbsp;&nbsp;&nbsp;&nbsp;<span onclick="editConfirm('{$da[\'id\']}')" >删除</span></td>
         </tr>
     </volist>
     </tbody>
@@ -23,4 +23,17 @@
 </span>
 
 </body>
+<script type="text/javascript">
+    //编辑验证
+    function editConfirm( id){
+        layer.confirm('是否删除?', {icon: 3, title:'提示'}, function(index){
+           // alert(id);
+
+            layer.close(index);
+        });
+
+    }
+
+   // layer.msg("只想弱弱提示");
+</script>
 <include file="Public:footer"/>
