@@ -41,6 +41,7 @@
         </tr><?php endforeach; endif; else: echo "" ;endif; ?>
     </tbody>
 </table>
+<span><?php echo ($page); ?></span>
 <script type="text/javascript" src="<?php echo (H_UI_PATH); ?>lib/jquery/1.9.1/jquery.min.js"></script>
 <script>
    function edit(){

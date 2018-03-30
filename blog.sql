@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50719
 File Encoding         : 65001
 
-Date: 2018-03-19 15:45:36
+Date: 2018-03-30 20:18:53
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -23,15 +23,17 @@ CREATE TABLE `blogs` (
   `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT,
   `cid` tinyint(4) NOT NULL,
   `title` varchar(60) COLLATE utf8_unicode_ci NOT NULL,
-  `create_time` datetime NOT NULL,
-  `avatar` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `create_time` int(11) NOT NULL,
+  `keywords` varchar(60) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `content` mediumtext COLLATE utf8_unicode_ci NOT NULL,
+  `description` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of blogs
 -- ----------------------------
-INSERT INTO `blogs` VALUES ('11', '2', 'mysql 整数型变量', '2018-03-19 12:37:02', './article/1.html');
+INSERT INTO `blogs` VALUES ('1', '9', '感受', '1522403627', '', '&lt;p&gt;初始的时候的话语，加油吧&lt;/p&gt;', '');
 
 -- ----------------------------
 -- Table structure for `category`
@@ -40,21 +42,37 @@ DROP TABLE IF EXISTS `category`;
 CREATE TABLE `category` (
   `id` tinyint(3) unsigned NOT NULL AUTO_INCREMENT,
   `category` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
-  `avatar` varchar(80) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `parent_id` tinyint(4) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of category
 -- ----------------------------
-INSERT INTO `category` VALUES ('1', 'PHP', null);
-INSERT INTO `category` VALUES ('2', 'MySQL', null);
-INSERT INTO `category` VALUES ('3', 'Linux', null);
-INSERT INTO `category` VALUES ('4', 'HTML', null);
-INSERT INTO `category` VALUES ('5', 'javasctipt', null);
-INSERT INTO `category` VALUES ('6', 'CSS', null);
-INSERT INTO `category` VALUES ('7', 'Think3.2', null);
-INSERT INTO `category` VALUES ('8', 'CodeIginter', null);
+INSERT INTO `category` VALUES ('1', 'PHP', '0');
+INSERT INTO `category` VALUES ('2', 'MySQL', '0');
+INSERT INTO `category` VALUES ('3', 'Linux', '0');
+INSERT INTO `category` VALUES ('4', 'HTML', '0');
+INSERT INTO `category` VALUES ('5', 'javasctipt', '0');
+INSERT INTO `category` VALUES ('6', 'CSS', '0');
+INSERT INTO `category` VALUES ('7', 'Think3.2', '1');
+INSERT INTO `category` VALUES ('8', 'CodeIginter', '1');
+INSERT INTO `category` VALUES ('9', '感悟', '0');
+
+-- ----------------------------
+-- Table structure for `picture`
+-- ----------------------------
+DROP TABLE IF EXISTS `picture`;
+CREATE TABLE `picture` (
+  `id` smallint(6) NOT NULL AUTO_INCREMENT,
+  `bid` smallint(6) NOT NULL,
+  `avatar` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- ----------------------------
+-- Records of picture
+-- ----------------------------
 
 -- ----------------------------
 -- Table structure for `users`

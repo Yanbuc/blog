@@ -112,11 +112,6 @@ class BlogsModel extends BaseModel
               $rn['information'] = "文章添加失败";
               return $rn;
           }
-
-
-
-
-
           $rn['flag'] = $this->add();
          return $rn;
       }
@@ -140,13 +135,18 @@ class BlogsModel extends BaseModel
            $data['content']=preg_replace('/alt=\"(?<=").*?(?=")\"/','alt="月歌博客"',$data['content']);
        }
 
+       $path ='src="'.C('BLOG_IMAGE_PATH');
+
        // 将绝对路径转换为相对路径
-       $data['content'] = preg_replace('/src=\"\/blog\/article/','src="./article',$data['content']);
+       $data['content'] = preg_replace('/src=\"\/blog\/article\//',$path,$data['content']);
+
        // 转义
        $data['content']=htmlspecialchars($data['content']);
        return $data;
 
    }
+
+
 
 
 

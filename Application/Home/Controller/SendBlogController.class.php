@@ -26,11 +26,21 @@ class SendBlogController extends HomeBaseController
 
     }
 
+    //这里的查找数据需要修改。
     public function showList(){
         $data['cid']=I('get.id');
         $rn=$this->blogsModel->selectData($data);
+        $rn = $this->transTime($rn);
         $this->assign('da',$rn);
         $this->display();
+    }
+
+    //转化时间格式
+    protected function  transTime($data){
+        foreach($data as $key => &$value){
+            $value['create_time'] = date('Y-m-d h:i:s',$value['create_time']);
+        }
+        return $data;
 
     }
 

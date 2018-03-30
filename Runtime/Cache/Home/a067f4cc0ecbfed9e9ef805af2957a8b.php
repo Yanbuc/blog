@@ -18,7 +18,7 @@
 </head>
 <body >
 
-         <?php if(is_array($da)): $i = 0; $__LIST__ = $da;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><div class="tiao"><a href="<?php echo (CITE_ROOT); ?>blog/<?php echo ($data['avatar']); ?>"><?php echo ($data["title"]); ?>&nbsp;&nbsp;&nbsp;&nbsp;<?php echo ($data["create_time"]); ?></a></div><?php endforeach; endif; else: echo "" ;endif; ?>
+         <?php if(is_array($da)): $i = 0; $__LIST__ = $da;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><div class="tiao"><a href="<?php echo U('Home/ShowBlog/showBlog',array('bid'=> $data['id']));?>"><!--href="<?php echo (CITE_ROOT); ?>blog/<?php echo ($data['avatar']); ?>" --> <?php echo ($data["title"]); ?>&nbsp;&nbsp;&nbsp;&nbsp;<?php echo ($data["create_time"]); ?></a></div><?php endforeach; endif; else: echo "" ;endif; ?>
 
          <a href="<?php echo U('Home/Index/index');?>">回到首页</a>
 

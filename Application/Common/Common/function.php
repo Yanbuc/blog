@@ -22,9 +22,13 @@
 
 
  function get_image_url($str){
-     $preg='/\.\/article\/image\/\d*\/\d*\.[jpg|jpeg|png|bmp|gif]*/i';
+     $preg='/\/article\/image\/\d*\/\d*\.[jpg|jpeg|png|bmp|gif]*/i';
      preg_match_all($preg, $str,$data);
-     return current($data);
+     $data = current($data);
+     foreach ($data as $key =>&$value){
+         $value = '.'.$value;
+     }
+     return $data;
  }
 
 

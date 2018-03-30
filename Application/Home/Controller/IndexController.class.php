@@ -15,7 +15,7 @@ class IndexController extends HomeBaseController {
         $rn = $this->showlist();
         $rn = $this->showType($rn);
         $this->assign('type',$rn);
-        $this->display();
+        $this->display('index');
 
     }
 

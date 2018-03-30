@@ -25,13 +25,16 @@ return array(
     'TMPL_PARSE_STRING' => array(
         '__ADMIN_PATH__' => __ROOT__.'/Public/H-ui',
        '__ADMIN_STATIC_PATH__' => __ROOT__.'/Public/H-ui/static',
-
+       '__BLOG_PICTURE_PATH__' => __ROOT__.'/article',
 
 
     ),
 
     //
-    'IMAGE_TITLE_ALT_WORD' => '月歌博客'
+    'IMAGE_TITLE_ALT_WORD' => '月歌博客',
 
+    //博客图片路径
+
+    'BLOG_IMAGE_PATH' => CITE_ROOT.'blog/article/',
 
 );

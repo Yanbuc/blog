@@ -19,7 +19,7 @@
 <body >
 
          <volist name="da" id="data">
-             <div class="tiao"><a href="{$Think.const.CITE_ROOT}blog/{$data['avatar']}">{$data.title}&nbsp;&nbsp;&nbsp;&nbsp;{$data.create_time}</a></div>
+             <div class="tiao"><a href="{:U('Home/ShowBlog/showBlog',array('bid'=> $data['id']))}"><!--href="{$Think.const.CITE_ROOT}blog/{$data['avatar']}" --> {$data.title}&nbsp;&nbsp;&nbsp;&nbsp;{$data.create_time}</a></div>
          </volist>
 
          <a href="{:U('Home/Index/index')}">回到首页</a>

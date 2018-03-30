@@ -33,6 +33,7 @@ define('H_UI_PATH',CITE_ROOT.'blog/Public/H-ui/');
 define('H_UI_STATIC_PATH',CITE_ROOT.'blog/Public/H-ui/static/');
 // 引入ThinkPHP入口文件
 
+define('BLOG_IMAGE_PATH',CITE_ROOT.'blog/article/');
 require './ThinkPHP/Library/Vendor/vendor/autoload.php';
 require './ThinkPHP/ThinkPHP.php';
 

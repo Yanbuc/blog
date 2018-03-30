@@ -54,5 +54,16 @@ class BaseModel extends Model
 
     }
 
+    public function findData($data = array()){
+        if (empty($data)) {
+            return array();
+        }
+        else {
+            $data = $this->where($data)->find();
+            return $data;
+        }
+
+    }
+
 
 }
