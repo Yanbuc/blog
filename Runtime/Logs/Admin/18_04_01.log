@@ -1,0 +1,250 @@
+[ 2018-04-01T15:28:18+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0469s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.027620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.025356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025392s ]
+
+[ 2018-04-01T15:28:18+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Index/showCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2018-04-01T15:28:31+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Index/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0003s ]
+
+[ 2018-04-01T15:28:34+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2018-04-01T15:28:34+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Index/showCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2018-04-01T15:28:47+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Index/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `password` FROM `users` LIMIT 1   [ RunTime:0.0587s ]
+
+[ 2018-04-01T15:28:47+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+NOTIC: [2048] Declaration of Common\Model\BlogsModel::addData() should be compatible with Common\Model\BaseModel::addData($data) D:\phpStudy\WWW\blog\Application\Common\Model\BlogsModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0159s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2018-04-01T15:28:49+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/showUploadBlog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+NOTIC: [2048] Declaration of Common\Model\BlogsModel::addData() should be compatible with Common\Model\BaseModel::addData($data) D:\phpStudy\WWW\blog\Application\Common\Model\BlogsModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0241s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2018-04-01T16:25:33+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/uploadBlog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+NOTIC: [2048] Declaration of Common\Model\BlogsModel::addData() should be compatible with Common\Model\BaseModel::addData($data) D:\phpStudy\WWW\blog\Application\Common\Model\BlogsModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blogs` (`cid`,`title`,`keywords`,`description`,`content`,`create_time`) VALUES ('3','Linux 添加硬盘的步骤','','','&lt;p&gt;添加硬盘&lt;/p&gt;&lt;p&gt;分为几个步骤，&lt;/p&gt;&lt;p&gt;就是添加硬盘(在虚拟机上点击硬盘，添加即可。)&lt;/p&gt;&lt;p&gt;添加硬盘之后，在根目录之下的dev目录存放。&lt;/p&gt;&lt;p&gt;将硬盘分区 &amp;nbsp;fdisk (disk是硬盘的意思，f想做分)如此记忆&amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;fdisk硬盘的名字&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://localhost/blog/article/image/20180401/1522567790334356.png&quot; alt=&quot;月歌博客&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;运行命令之后&lt;/p&gt;&lt;p&gt;然后输入 m&lt;/p&gt;&lt;p&gt;产生的效果图如下&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://localhost/blog/article/image/20180401/1522567944529893.png&quot; title=&quot;月歌博客&quot; alt=&quot;月歌博客&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;所以我们想要创建一个分区，输入n&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://localhost/blog/article/image/20180401/1522568056985556.png&quot; title=&quot;月歌博客&quot; alt=&quot;月歌博客&quot;/&gt;&lt;/p&gt;&lt;p&gt;在这里我们介绍一下分区的概念，&lt;/p&gt;&lt;p&gt;在Linux的一块硬盘之中只能存在四块主分区，&lt;/p&gt;&lt;p&gt;分区，可以这样来理解，将一个极大的衣柜，在里面打上隔板。这样的话，柜子里就是分成了几个区间，这个就是对硬盘进行分区。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;但是我们在使用的时候，可能会遇到这样的问题，就是如果我们想对一块硬盘多分几个区间的话，那我们应该怎么做？&lt;/p&gt;&lt;p&gt;因为Linux本身的限制，我们只能对一块硬盘分四个区间。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;解答如下：&lt;/p&gt;&lt;p&gt;其实Linux之中的分区类型，可以分为主分区和扩展分区，这两种。&lt;/p&gt;&lt;p&gt;但是扩展分区和主分区的数量加起来一共就只能是四个。不能超过这个数字。&lt;/p&gt;&lt;p&gt;我们来说说扩展分区和主分区的不同之处，&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;主分区的话，是可以进行格式化和存放数据的。但是扩展分区的话，并不能存放数据和格式化。&lt;/p&gt;&lt;p&gt;但是扩展分区有一个特点，就是他可以存放逻辑分区。&lt;/p&gt;&lt;p&gt;逻辑分区的话，是可以存放数据和格式化的。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;因为上面出现了格式化这个名词，那么现在我们就来解释一下格式化吧。&lt;/p&gt;&lt;p&gt;格式化的话，其实是在对硬盘分区之后使用的，它并不是我们从字面上理解的那个意思。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;格式化的作用，其实是向硬盘写入文件系统，Linux支持的文件系统的话，有ext2.etx3 ,ext4这三种&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;写入文件系统的作用是什么呢？&lt;/p&gt;&lt;p&gt;其实就是将硬盘平均地分成一个一个很小的相等的数据块。&lt;/p&gt;&lt;p&gt;就以ext4而言的话，就是将硬盘分成一个一个大小为4kb的数据块，数据块在英文之中的意思是block&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;那我们会问，数据块的作用是什么呢？&lt;/p&gt;&lt;p&gt;是存放数据的。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;那我们可能会产生一个疑惑，如果我向存放一个数据，那么这些数据是怎么存储的呢？&lt;/p&gt;&lt;p&gt;假设我们想要在硬盘之中存入一个10kb大小的数据块，&lt;/p&gt;&lt;p&gt;就需要三个数据块来存储这些数据，&lt;/p&gt;&lt;p&gt;但是这三个数据在硬盘之中是否是连续的呢？意思就是 是不是这10kb的数据是存放在编号为1 ,2, 3相连的数据块&lt;/p&gt;&lt;p&gt;之中的呢？&lt;/p&gt;&lt;p&gt;不是。&lt;/p&gt;&lt;p&gt;其实数据的存放，并不是存放在相连的数据块之中的，是无序存放的。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;接着上面的话题，&lt;/p&gt;&lt;p&gt;因为扩展分区之中具有逻辑分区，所以我们可以对扩展分区之中进行再一次的分割，分割成很多的小区间。&lt;/p&gt;&lt;p&gt;这样的话，就是解决了硬盘分区的数量只能限制为4个的限制问题。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;上面我们输入了n 表示创建分区。&lt;/p&gt;&lt;p&gt;然后系统就会让你设置你创建的分区的序号&lt;/p&gt;&lt;p&gt;图示如下&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://localhost/blog/article/image/20180401/1522569167582650.png&quot; title=&quot;月歌博客&quot; alt=&quot;月歌博客&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;随意选择吧。输入1-4之间的一个数字，这样的话，就是符合了上面所说的Linux的主分区只能有四个。&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;选择了分区的编号之后，当然是要选择分区的大小了&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;图示如下：&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://localhost/blog/article/image/20180401/1522569298102355.png&quot; title=&quot;月歌博客&quot; alt=&quot;月歌博客&quot;/&gt;&lt;/p&gt;&lt;p&gt;上面的提示信息之中显示了选择的范围，首先输入的是分区大小的开始值&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;然后会输入分区大小的结尾值，就像一个区间一样，区间的长度就是分区的大小。&lt;/p&gt;&lt;p&gt;如果不输入。按下Eer键的话，那么就是选择默认值&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;输入完区间的起始和开头之后，接下来就是要对硬盘所做的修改进行保存了&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;输入 w 之后就是保存自己对硬盘所做的修改。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://localhost/blog/article/image/20180401/1522569557121341.png&quot; title=&quot;月歌博客&quot; alt=&quot;月歌博客&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;对硬盘做出分区之后，得到的结果是我们具有了一个分区，&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;但是我们还不能向分区之中写入数据，&lt;/p&gt;&lt;p&gt;我们需要对分区格式化，就是写入分件系统。&lt;/p&gt;&lt;p&gt;输入命令&amp;nbsp; mkfs&amp;nbsp; (可以这样快速记忆 make file system)&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;mkfs.文件系统的名字 分区的位置&lt;/p&gt;&lt;p&gt;这样的话，就是能对分区写入分件系统了。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;例子如下&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://localhost/blog/article/image/20180401/1522569783909691.png&quot; title=&quot;月歌博客&quot; alt=&quot;月歌博客&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;因为上面 我的分区的位置是sdb1&lt;/p&gt;&lt;p&gt;这样大家可能就是会产生疑惑，就是分区的位置到底是从那里找的呢?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;那我们就说说 硬盘的命名格式&lt;/p&gt;&lt;p&gt;在/dev 文件夹下面存放着硬件系统，&lt;/p&gt;&lt;p&gt;进入这个文件，让我们来看看这个文件夹下面到底有着那些文件。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Linux 原有的硬盘的文件夹的名字被命名为sda&lt;/p&gt;&lt;p&gt;如果我在后面加入一块硬盘的话，那么这块硬盘的名字就是sdb&lt;/p&gt;&lt;p&gt;以此类推。&lt;/p&gt;&lt;p&gt;当然，如果对我后面加入的硬盘进行分区的话，第一个分区的名字就是sdb1&lt;/p&gt;&lt;p&gt;第二个分区的名字就是sdb2&lt;/p&gt;&lt;p&gt;以此类推。&lt;/p&gt;&lt;p&gt;这个就是硬盘以及硬盘之中分区的命名的规则。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;现在想分区之中写入文件系统&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://localhost/blog/article/image/20180401/1522570200106550.png&quot; title=&quot;月歌博客&quot; alt=&quot;月歌博客&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;那么写入文件系统之后，我们可以向这块硬盘写入数据了吗？&lt;/p&gt;&lt;p&gt;答案时候还是不能。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;因为我们还需要最后一步。就是，为分区分配一个设备文件名。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;这里就是会遇到属于Linux的一个最大的特征，就是Linux之中的所有硬件都是以文件夹的形式存在的。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;为分区分配一个设备文件名 在实际的使用之中，叫做挂载的意思。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;具体的语法如下：&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;mount 分区位置&amp;nbsp; 文件位置。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;我们首先在根目录下创建一个文件夹 sdb1&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://localhost/blog/article/image/20180401/1522570464140580.png&quot; title=&quot;月歌博客&quot; alt=&quot;月歌博客&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;进入sdb1 我们看看里面的情况，我们猜测 因为是刚刚建立的话，所以里面是肯定没有文件的。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://localhost/blog/article/image/20180401/1522570549208273.png&quot; title=&quot;月歌博客&quot; alt=&quot;月歌博客&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;事实上也是如此。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;好，我们接下来就是将我们的sdb1分区挂载到我们创建的sdb1文件上面。&lt;/p&gt;&lt;p&gt;然后我们再次进入，就是会发现。其实里面多了个文件。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://localhost/blog/article/image/20180401/1522570754953971.png&quot; title=&quot;月歌博客&quot; alt=&quot;月歌博客&quot;/&gt;&lt;/p&gt;&lt;p&gt;这样的话，我们在根目录下的sdb1文件夹之中存放文件，实际上数据就是会存放在sdb1这个分区之中。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;既然有了挂载，那么也是应该具有卸载。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;卸载的语法&lt;/p&gt;&lt;p&gt;umount 设备的位置&amp;nbsp; 文件的位置&lt;/p&gt;&lt;p&gt;结果如下：&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://localhost/blog/article/image/20180401/1522570950123195.png&quot; title=&quot;月歌博客&quot; alt=&quot;月歌博客&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','1522571132') [ RunTime:0.2501s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0006s ]
+SQL: INSERT INTO `picture` (`bid`,`avatar`) VALUES ('2','./article/image/20180401/1522567790334356.png'),('2','./article/image/20180401/1522567944529893.png'),('2','./article/image/20180401/1522568056985556.png'),('2','./article/image/20180401/1522569167582650.png'),('2','./article/image/20180401/1522569298102355.png'),('2','./article/image/20180401/1522569557121341.png'),('2','./article/image/20180401/1522569783909691.png'),('2','./article/image/20180401/1522570200106550.png'),('2','./article/image/20180401/1522570464140580.png'),('2','./article/image/20180401/1522570549208273.png'),('2','./article/image/20180401/1522570754953971.png'),('2','./article/image/20180401/1522570950123195.png') [ RunTime:0.0274s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001367s ]
+
+[ 2018-04-01T16:25:34+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/showUploadBlog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+NOTIC: [2048] Declaration of Common\Model\BlogsModel::addData() should be compatible with Common\Model\BaseModel::addData($data) D:\phpStudy\WWW\blog\Application\Common\Model\BlogsModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2018-04-01T16:25:36+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+NOTIC: [2048] Declaration of Common\Model\BlogsModel::addData() should be compatible with Common\Model\BaseModel::addData($data) D:\phpStudy\WWW\blog\Application\Common\Model\BlogsModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blogs` LIMIT 1   [ RunTime:0.1607s ]
+SQL: SELECT * FROM `blogs` ORDER BY id LIMIT 0,4   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2018-04-01T16:25:36+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+NOTIC: [2048] Declaration of Common\Model\BlogsModel::addData() should be compatible with Common\Model\BaseModel::addData($data) D:\phpStudy\WWW\blog\Application\Common\Model\BlogsModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blogs` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blogs` ORDER BY id LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+

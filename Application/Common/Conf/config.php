@@ -6,11 +6,15 @@ return array(
     'DEFAULT_FILTER'        =>  'strip_tags',
     //开启字段映射
     'READ_DATA_MAP'  => true,
+    //*********************************************
+
     'JWT_KEY'              => 'SH8>KL!,HJSKLNMaah45',
     'JWT_ALG'             =>  'HS256',
+   //************************************************
 
+    //************************************************
     //开启页面调试模式
-    'SHOW_PAGE_TRACE' =>false,
+   // 'SHOW_PAGE_TRACE' =>false,
     //路由在Linux下面不分大小写
     //'URL_CASE_INSENSITIVE' => true,
 
@@ -36,5 +40,7 @@ return array(
     //博客图片路径
 
     'BLOG_IMAGE_PATH' => CITE_ROOT.'blog/article/',
+
+    'SHOW_PAGE_TRACE' =>true,
 
 );

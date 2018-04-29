@@ -6,42 +6,41 @@
     <My:fg />
 </head>
 <body >
-<form  action="{:U('PutBlog/uploadBlog')}" enctype="multipart/form-data" method="post" id="fm" name="myform" style="width:90%">
+<form  action="{:U('PutBlog/showEditContent')}" enctype="multipart/form-data" method="post" id="fm" name="myform" style="width:90%">
     <table class="table table-border table-bordered radius">
         <thead>
         <tr>
             <th>分类</th>
-            <th>
-                <select name="cid">
-                     <volist name="data" id="da">
-                         <option value="{$da.id}">
-                            {$da.category}
-                         </option>
-                     </volist>
-                </select>
+            <th> <select name="cid">
+                <volist name="cag" id="da">
+                    <option value="{$da.id}">
+                        {$da.category}
+                    </option>
+                </volist>
+            </select>
             </th>
         </tr>
         </thead>
         <tbody>
         <tr>
             <th>博客题目</th>
-            <td><input type="text" class="input-text" autocomplete="off" placeholder="博客题目" name="title" id="acc" style="width:200px;">
+            <td><input type="text" class="input-text" autocomplete="off" placeholder="博客题目" name="title" id="acc" style="width:200px;" value="{$data['title']}">
             </td>
         </tr>
         <tr>
             <th>关键字</th>
-            <td><input type="text" class="input-text" autocomplete="off" placeholder="关键字" name="keywords" id="key" style="width:200px;">
+            <td><input type="text" class="input-text" autocomplete="off" placeholder="关键字" name="keywords" id="key" style="width:200px;" value="{$data['keywords']}">
             </td>
         </tr>
         <tr>
             <th>描述</th>
-            <td><input type="text" class="input-text" autocomplete="off" placeholder="描述，不多于50字" name="description" id="desc" style="width:200px;">
+            <td><input type="text" class="input-text" autocomplete="off" placeholder="描述，不多于50字" name="description" id="desc" style="width:200px;" value="{$data['description']}">
             </td>
         </tr>
         <tr>
             <th colspan="2">
                 <taglib name="My" />
-                <My:ueditor name="content" />
+                <My:ueditor name="content" content="{$data['content']}" />
             </th>
         </tr>
         <tr>
@@ -49,6 +48,7 @@
         </tr>
         </tbody>
     </table>
+    <input type="hidden" name="id" value="{$data['id']}" />
 </form>
 
 

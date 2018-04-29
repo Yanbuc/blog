@@ -31,7 +31,12 @@
      return $data;
  }
 
-
+function getDay($day){
+    $day = date('Y-m-d',$day);
+    $day = explode('-',$day);
+    $day = array_pop($day);
+    return $day;
+}
 
 
 

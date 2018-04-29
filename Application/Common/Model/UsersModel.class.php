@@ -11,15 +11,18 @@ use \Common\Model\BaseModel;
 
 class UsersModel extends BaseModel
 {
+
     protected  $_map = array(
         'acc' => 'name',
         'pwd' => 'password'
     );
 
+
     public function getPassword($data){
        $rn = $this->where($data)->getField('password');
        return $rn;
     }
+
 
 
 }

@@ -29,6 +29,7 @@
                </tr><?php endforeach; endif; else: echo "" ;endif; ?>
           </table>
       </div>
+       <?php echo ($rn[0]['id']); ?>
 
 </body>
 </html>

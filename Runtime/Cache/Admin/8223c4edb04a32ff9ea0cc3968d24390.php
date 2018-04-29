@@ -37,16 +37,28 @@
             <td><?php echo ++$xu;?></td>
             <td><?php echo ($da["cat"]); ?></td>
             <td><?php echo ($da["title"]); ?></td>
-            <td><span value="<?php echo ($da['id']); ?>" onclick="edit()">编辑</span>&nbsp;&nbsp;&nbsp;&nbsp;<span value="<?php echo ($da['id']); ?>" class="del" >删除</span></td>
+            <td><a href="<?php echo ($url); ?>?id=<?php echo ($da['id']); ?> ">编辑</a>&nbsp;&nbsp;&nbsp;<span value="<?php echo ($da['id']); ?>" class="del" >删除</span></td>
         </tr><?php endforeach; endif; else: echo "" ;endif; ?>
     </tbody>
 </table>
 <span><?php echo ($page); ?></span>
+<script src="<?php echo (H_UI_PATH); ?>lib/layer/2.4/layer.js"></script>
 <script type="text/javascript" src="<?php echo (H_UI_PATH); ?>lib/jquery/1.9.1/jquery.min.js"></script>
 <script>
-   function edit(){
-       alert('hello');
+    //编辑博客
+
+   function edit(id){
+
+        url = "<?php echo ($url); ?>";
+        url = url + '?id=' +id;
+         layer.open({
+              title:"修改博客的内容",
+               type:2,
+               maxmin:true,
+               content:url,
+      });
    }
+
 
 
 

@@ -1,0 +1,238 @@
+[ 2018-04-29T09:56:23+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Index/checkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `users` WHERE `name` = 'yuege'  [ RunTime:0.0241s ]
+SQL: UPDATE `users` SET `tdy_login_times`='1',`last_login_time`='1524966983' WHERE `id` = 1 [ RunTime:0.4703s ]
+
+[ 2018-04-29T12:28:22+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Index/checkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+
+[ 2018-04-29T12:28:44+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Index/checkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `users` WHERE `name` = 'yuege'  [ RunTime:0.0004s ]
+SQL: UPDATE `users` SET `tdy_login_times`='2',`last_login_time`='1524976124' WHERE `id` = 1 [ RunTime:0.1307s ]
+
+[ 2018-04-29T19:55:32+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Index/checkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+
+[ 2018-04-29T19:55:50+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Index/checkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `users` WHERE `name` = 'yuege'  [ RunTime:0.0004s ]
+SQL: UPDATE `users` SET `tdy_login_times`='3',`last_login_time`='1525002950' WHERE `id` = 1 [ RunTime:0.0935s ]
+
+[ 2018-04-29T20:02:14+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Index/checkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `users` WHERE `name` = 'yuege'  [ RunTime:0.0003s ]
+SQL: UPDATE `users` SET `tdy_login_times`='4',`last_login_time`='1525003334' WHERE `id` = 1 [ RunTime:0.1117s ]
+
+[ 2018-04-29T20:03:06+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/deleteBlog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `picture` WHERE `bid` = 1  [ RunTime:0.0003s ]
+SQL: DELETE FROM `blogs` WHERE `id` = 1 [ RunTime:0.0651s ]
+
+[ 2018-04-29T20:22:08+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Index/checkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `users` WHERE `name` = 'yuege'  [ RunTime:0.0003s ]
+SQL: UPDATE `users` SET `tdy_login_times`='5',`last_login_time`='1525004528' WHERE `id` = 1 [ RunTime:0.1016s ]
+
+[ 2018-04-29T20:22:26+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/showEditContent.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/article/image/20180429/1524981662668627.jpg, )' at line 1
+ [ SQL语句 ] : DELETE FROM `picture` WHERE ( avatar=./article/image/20180429/1524981662668627.jpg, )
+
+[ 2018-04-29T20:28:58+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/deleteBlog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `picture` WHERE `bid` = 10  [ RunTime:0.0003s ]
+SQL: DELETE FROM `picture` WHERE `bid` = 10 [ RunTime:0.0990s ]
+SQL: DELETE FROM `blogs` WHERE `id` = 10 [ RunTime:0.0399s ]
+
+[ 2018-04-29T20:30:15+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/deleteBlog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `picture` WHERE `bid` = 11  [ RunTime:0.0003s ]
+SQL: DELETE FROM `picture` WHERE `bid` = 11 [ RunTime:0.0987s ]
+SQL: DELETE FROM `blogs` WHERE `id` = 11 [ RunTime:0.1049s ]
+
+[ 2018-04-29T20:33:45+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/deleteBlog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `picture` WHERE `bid` = 12  [ RunTime:0.0004s ]
+SQL: DELETE FROM `picture` WHERE `bid` = 12 [ RunTime:0.0949s ]
+SQL: DELETE FROM `blogs` WHERE `id` = 12 [ RunTime:0.0517s ]
+
+[ 2018-04-29T20:35:23+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/deleteBlog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `picture` WHERE `bid` = 13  [ RunTime:0.0002s ]
+SQL: DELETE FROM `picture` WHERE `bid` = 13 [ RunTime:0.1032s ]
+SQL: DELETE FROM `blogs` WHERE `id` = 13 [ RunTime:0.0386s ]
+
+[ 2018-04-29T20:39:35+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/deleteBlog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `picture` WHERE `bid` = 15  [ RunTime:0.0004s ]
+SQL: DELETE FROM `picture` WHERE `bid` = 15 [ RunTime:0.1017s ]
+SQL: DELETE FROM `blogs` WHERE `id` = 15 [ RunTime:0.0386s ]
+
+[ 2018-04-29T20:39:39+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/deleteBlog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `picture` WHERE `bid` = 14  [ RunTime:0.0597s ]
+SQL: DELETE FROM `picture` WHERE `bid` = 14 [ RunTime:0.0498s ]
+SQL: DELETE FROM `blogs` WHERE `id` = 14 [ RunTime:0.0383s ]
+
+[ 2018-04-29T20:44:13+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/showEditContent.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/article/image/20180429/1525005592693242.png, )' at line 1
+ [ SQL语句 ] : DELETE FROM `picture` WHERE ( avatar=./article/image/20180429/1525005592693242.png, )
+
+[ 2018-04-29T20:44:41+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/deleteBlog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `picture` WHERE `bid` = 16  [ RunTime:0.0003s ]
+SQL: DELETE FROM `picture` WHERE `bid` = 16 [ RunTime:0.0456s ]
+SQL: DELETE FROM `blogs` WHERE `id` = 16 [ RunTime:0.0729s ]
+
+[ 2018-04-29T20:46:08+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/deleteBlog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `picture` WHERE `bid` = 17  [ RunTime:0.0003s ]
+SQL: DELETE FROM `picture` WHERE `bid` = 17 [ RunTime:0.0839s ]
+SQL: DELETE FROM `blogs` WHERE `id` = 17 [ RunTime:0.0737s ]
+
+[ 2018-04-29T20:47:40+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/showEditContent.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/article/image/20180429/1525005897113823.png )' at line 1
+ [ SQL语句 ] : DELETE FROM `picture` WHERE ( avatar=./article/image/20180429/1525005897113823.png )
+
+[ 2018-04-29T20:49:08+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/deleteBlog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `picture` WHERE `bid` = 18  [ RunTime:0.0003s ]
+SQL: DELETE FROM `picture` WHERE `bid` = 18 [ RunTime:0.0557s ]
+SQL: DELETE FROM `blogs` WHERE `id` = 18 [ RunTime:0.0938s ]
+
+[ 2018-04-29T20:50:11+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/deleteBlog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `picture` WHERE `bid` = 19  [ RunTime:0.0003s ]
+SQL: DELETE FROM `picture` WHERE `bid` = 19 [ RunTime:0.1014s ]
+SQL: DELETE FROM `blogs` WHERE `id` = 19 [ RunTime:0.0397s ]
+
+[ 2018-04-29T20:50:43+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/showEditContent.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `picture` WHERE ( avatar='./article/image/20180429/1525006229637472.png','./article/image/20180429/1525006229622282.png', )
+
+[ 2018-04-29T20:56:30+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/deleteBlog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `picture` WHERE `bid` = 20  [ RunTime:0.0003s ]
+SQL: DELETE FROM `picture` WHERE `bid` = 20 [ RunTime:0.1110s ]
+SQL: DELETE FROM `blogs` WHERE `id` = 20 [ RunTime:0.0714s ]
+
+[ 2018-04-29T21:11:47+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/deleteBlog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001854s ]
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `picture` WHERE `bid` = 8  [ RunTime:0.0003s ]
+SQL: DELETE FROM `picture` WHERE `bid` = 8 [ RunTime:0.0981s ]
+SQL: DELETE FROM `blogs` WHERE `id` = 8 [ RunTime:0.0359s ]
+
+[ 2018-04-29T21:12:06+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/deleteBlog.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `picture` WHERE `bid` = 9  [ RunTime:0.0003s ]
+SQL: DELETE FROM `picture` WHERE `bid` = 9 [ RunTime:0.0952s ]
+SQL: DELETE FROM `blogs` WHERE `id` = 9 [ RunTime:0.0367s ]
+

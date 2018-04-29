@@ -14,17 +14,29 @@
             <td>{++$xu}</td>
             <td>{$da.cat}</td>
             <td>{$da.title}</td>
-            <td><span value="{$da['id']}" onclick="edit()">编辑</span>&nbsp;&nbsp;&nbsp;&nbsp;<span value="{$da['id']}" class="del" >删除</span></td>
+            <td><a href="{$url}?id={$da['id']} ">编辑</a>&nbsp;&nbsp;&nbsp;<span value="{$da['id']}" class="del" >删除</span></td>
         </tr>
     </volist>
     </tbody>
 </table>
 <span>{$page}</span>
+<script src="{$Think.const.H_UI_PATH}lib/layer/2.4/layer.js"></script>
 <script type="text/javascript" src="{$Think.const.H_UI_PATH}lib/jquery/1.9.1/jquery.min.js"></script>
 <script>
-   function edit(){
-       alert('hello');
+    //编辑博客
+
+   function edit(id){
+
+        url = "{$url}";
+        url = url + '?id=' +id;
+         layer.open({
+              title:"修改博客的内容",
+               type:2,
+               maxmin:true,
+               content:url,
+      });
    }
+
 
 
 

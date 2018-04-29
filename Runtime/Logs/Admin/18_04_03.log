@@ -1,0 +1,456 @@
+[ 2018-04-03T15:15:26+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2018-04-03T15:15:26+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Index/showCheckCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2018-04-03T15:15:42+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Index/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `password` FROM `users` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-03T15:15:42+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+NOTIC: [2048] Declaration of Common\Model\BlogsModel::addData() should be compatible with Common\Model\BaseModel::addData($data) D:\phpStudy\WWW\blog\Application\Common\Model\BlogsModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2018-04-03T15:15:44+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/showUploadBlog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+NOTIC: [2048] Declaration of Common\Model\BlogsModel::addData() should be compatible with Common\Model\BaseModel::addData($data) D:\phpStudy\WWW\blog\Application\Common\Model\BlogsModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2018-04-03T15:20:34+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/uploadBlog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+NOTIC: [2048] Declaration of Common\Model\BlogsModel::addData() should be compatible with Common\Model\BaseModel::addData($data) D:\phpStudy\WWW\blog\Application\Common\Model\BlogsModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0185s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0398s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blogs` (`cid`,`title`,`keywords`,`description`,`content`,`create_time`) VALUES ('3','Linux远程管理工机具的介绍','','','&lt;p&gt;winscp可以在Linux和windows之间上传文件。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Xshell 可以远程连接Linux操作系统。也可以上传文件。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;记录一下自己的在使用xshell的时候遇到的问题：&lt;/p&gt;&lt;p&gt;一开始我的笔记本插了网线，在这样的情况下面，我使用xshell是可以连接&lt;/p&gt;&lt;p&gt;远程的服务器的。但是后来，我使用了无线网络，之后的话，就是不能连接属于&lt;/p&gt;&lt;p&gt;我的服务器了。&lt;/p&gt;&lt;p&gt;原因其实是在于笔记本的ip地址发生了变化。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','1522740034') [ RunTime:0.1385s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2018-04-03T15:20:35+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/showUploadBlog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+NOTIC: [2048] Declaration of Common\Model\BlogsModel::addData() should be compatible with Common\Model\BaseModel::addData($data) D:\phpStudy\WWW\blog\Application\Common\Model\BlogsModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0205s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2018-04-03T15:32:01+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/uploadBlog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2048] Declaration of Common\Model\BlogsModel::addData() should be compatible with Common\Model\BaseModel::addData($data) D:\phpStudy\WWW\blog\Application\Common\Model\BlogsModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0489s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blogs` (`cid`,`title`,`keywords`,`description`,`content`,`create_time`) VALUES ('1','Linux 命令的基本格式','','','&lt;p&gt;Linux之中命令的基本格式&lt;/p&gt;&lt;p&gt;命令 [-选项]&amp;nbsp; [参数]&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;选项：&lt;/p&gt;&lt;p&gt;说说上面的选项吧，选项的作用，其实就是对命令的功能进行调解，&lt;/p&gt;&lt;p&gt;使命令倾向于某一个方面的作用。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;参数 ：就是命令作用的对象。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;选项前面的话，一般都是以-开头的，这样的格式的话，就是表示参数。&lt;/p&gt;&lt;p&gt;但是记住，就是分为&lt;/p&gt;&lt;p&gt;简化选项和完整选项。&lt;/p&gt;&lt;p&gt;两者的区别到底是什么？&lt;/p&gt;&lt;p&gt;两者的功能是一样的，但是的话，就是书写的格式是不同的。&lt;/p&gt;&lt;p&gt;举个栗子：&lt;/p&gt;&lt;p&gt;-a 和--all&lt;/p&gt;&lt;p&gt;一般，完整选项的话，前面都是有两个-&lt;/p&gt;&lt;p&gt;简化选项的话，前面就是只有一个-&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;一条命令之中可以添加多个选项，也可以一个选项也不添加，&lt;/p&gt;&lt;p&gt;多个选项的添加的话，可以是连在一起书写的。&lt;/p&gt;&lt;p&gt;例如 -al&lt;/p&gt;&lt;p&gt;同样，一条命令之中可以一个参数也没有，也可以包含多个参数。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;一般来说，如果 命令之中既没有参数，同时也没有选项的话，那么&lt;/p&gt;&lt;p&gt;命令执行的对象就是当前目录。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','1522740721') [ RunTime:0.1640s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2018-04-03T15:32:02+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/showUploadBlog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+NOTIC: [2048] Declaration of Common\Model\BlogsModel::addData() should be compatible with Common\Model\BaseModel::addData($data) D:\phpStudy\WWW\blog\Application\Common\Model\BlogsModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2018-04-03T15:32:05+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+NOTIC: [2048] Declaration of Common\Model\BlogsModel::addData() should be compatible with Common\Model\BaseModel::addData($data) D:\phpStudy\WWW\blog\Application\Common\Model\BlogsModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blogs` LIMIT 1   [ RunTime:0.0484s ]
+SQL: SELECT * FROM `blogs` ORDER BY id LIMIT 0,4   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2018-04-03T15:32:08+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+NOTIC: [2048] Declaration of Common\Model\BlogsModel::addData() should be compatible with Common\Model\BaseModel::addData($data) D:\phpStudy\WWW\blog\Application\Common\Model\BlogsModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2018-04-03T15:32:10+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+NOTIC: [2048] Declaration of Common\Model\BlogsModel::addData() should be compatible with Common\Model\BaseModel::addData($data) D:\phpStudy\WWW\blog\Application\Common\Model\BlogsModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blogs` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blogs` ORDER BY id LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000344s ]
+
+[ 2018-04-03T15:32:18+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001441s ]
+NOTIC: [2048] Declaration of Common\Model\BlogsModel::addData() should be compatible with Common\Model\BaseModel::addData($data) D:\phpStudy\WWW\blog\Application\Common\Model\BlogsModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2018-04-03T15:32:18+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+NOTIC: [2048] Declaration of Common\Model\BlogsModel::addData() should be compatible with Common\Model\BaseModel::addData($data) D:\phpStudy\WWW\blog\Application\Common\Model\BlogsModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2018-04-03T15:32:18+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+NOTIC: [2048] Declaration of Common\Model\BlogsModel::addData() should be compatible with Common\Model\BaseModel::addData($data) D:\phpStudy\WWW\blog\Application\Common\Model\BlogsModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2018-04-03T15:32:18+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+NOTIC: [2048] Declaration of Common\Model\BlogsModel::addData() should be compatible with Common\Model\BaseModel::addData($data) D:\phpStudy\WWW\blog\Application\Common\Model\BlogsModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2018-04-03T15:32:19+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+NOTIC: [2048] Declaration of Common\Model\BlogsModel::addData() should be compatible with Common\Model\BaseModel::addData($data) D:\phpStudy\WWW\blog\Application\Common\Model\BlogsModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blogs` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blogs` ORDER BY id LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2018-04-03T15:32:23+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/showList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+NOTIC: [2048] Declaration of Common\Model\BlogsModel::addData() should be compatible with Common\Model\BaseModel::addData($data) D:\phpStudy\WWW\blog\Application\Common\Model\BlogsModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blogs` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blogs` ORDER BY id LIMIT 4,4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2018-04-03T15:32:34+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/PutBlog/showList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+NOTIC: [2048] Declaration of Common\Model\BlogsModel::addData() should be compatible with Common\Model\BaseModel::addData($data) D:\phpStudy\WWW\blog\Application\Common\Model\BlogsModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `blogs` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blogs` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blogs` ORDER BY id LIMIT 4,4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+

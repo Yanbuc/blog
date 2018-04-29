@@ -23,41 +23,40 @@
     <script type="text/javascript" src="/blog/Public/H-ui/lib/jquery/1.9.1/jquery.min.js"></script>
 </head>
 <body >
-<form  action="<?php echo U('PutBlog/uploadBlog');?>" enctype="multipart/form-data" method="post" id="fm" name="myform" style="width:90%">
+<form  action="<?php echo U('PutBlog/showEditContent');?>" enctype="multipart/form-data" method="post" id="fm" name="myform" style="width:90%">
     <table class="table table-border table-bordered radius">
         <thead>
         <tr>
             <th>分类</th>
-            <th>
-                <select name="cid">
-                     <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$da): $mod = ($i % 2 );++$i;?><option value="<?php echo ($da["id"]); ?>">
-                            <?php echo ($da["category"]); ?>
-                         </option><?php endforeach; endif; else: echo "" ;endif; ?>
-                </select>
+            <th> <select name="cid">
+                <?php if(is_array($cag)): $i = 0; $__LIST__ = $cag;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$da): $mod = ($i % 2 );++$i;?><option value="<?php echo ($da["id"]); ?>">
+                        <?php echo ($da["category"]); ?>
+                    </option><?php endforeach; endif; else: echo "" ;endif; ?>
+            </select>
             </th>
         </tr>
         </thead>
         <tbody>
         <tr>
             <th>博客题目</th>
-            <td><input type="text" class="input-text" autocomplete="off" placeholder="博客题目" name="title" id="acc" style="width:200px;">
+            <td><input type="text" class="input-text" autocomplete="off" placeholder="博客题目" name="title" id="acc" style="width:200px;" value="<?php echo ($data['title']); ?>">
             </td>
         </tr>
         <tr>
             <th>关键字</th>
-            <td><input type="text" class="input-text" autocomplete="off" placeholder="关键字" name="keywords" id="key" style="width:200px;">
+            <td><input type="text" class="input-text" autocomplete="off" placeholder="关键字" name="keywords" id="key" style="width:200px;" value="<?php echo ($data['keywords']); ?>">
             </td>
         </tr>
         <tr>
             <th>描述</th>
-            <td><input type="text" class="input-text" autocomplete="off" placeholder="描述，不多于50字" name="description" id="desc" style="width:200px;">
+            <td><input type="text" class="input-text" autocomplete="off" placeholder="描述，不多于50字" name="description" id="desc" style="width:200px;" value="<?php echo ($data['description']); ?>">
             </td>
         </tr>
         <tr>
             <th colspan="2">
                 
                 <script id="container" name="content" type="text/plain">
-       
+       <?php echo ($data['content']); ?>
   </script>
 <!-- 配置文件 -->
 <script type="text/javascript" src="/blog/Public/ueditor/utf8-php/ueditor.config.js"></script>
@@ -75,6 +74,7 @@
         </tr>
         </tbody>
     </table>
+    <input type="hidden" name="id" value="<?php echo ($data['id']); ?>" />
 </form>
 
 

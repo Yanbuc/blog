@@ -17,6 +17,7 @@ class UsersService
        $this->usersModel = new UsersModel();
    }
 
+   //检查用户登录的数据是否完整
    public function checkIsTrue($data){
 
        $rn = $this->usersModel->create($data);

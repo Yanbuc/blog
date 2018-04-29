@@ -64,9 +64,12 @@ class PutBlogController extends AdminBaseController
          $p = getPage($count,$pageSize);
          $list = $this->blogsModel->order('id')->limit($p->firstRow, $p->listRows)->select();
          $list = $this->delData($list);
+         $ud = U('Admin/PutBlog/showEditContent');
+
          $this->assign('xu',$p->firstRow);
          $this->assign('data',$list);
          $this->assign('page', $p->show());
+         $this->assign('url',$ud);
          $this->assign('size',$pageSize);
          $this->display();
          //$rn=$this->fetch();
@@ -159,6 +162,56 @@ class PutBlogController extends AdminBaseController
       }
       $path = $path.$temp[$i];
        return $path;
+    }
+
+    //编辑文章的方法
+    public function  editBlog(){
+        if (IS_GET) {
+            $data['id'] =I('get.id',1,'intval');
+
+        }
+        else {
+            $this->display('Index:index');
+        }
+
+    }
+
+    public function showEditContent(){
+        if (IS_GET) {
+            $data['id'] =I('get.id',1,'intval');
+            $da = $this->blogsModel->getBlogInformation($data);
+            $da['content'] = htmlspecialchars_decode($da['content']);
+            $cag = $this->categoryModel->selectData();
+            foreach($cag as $key => $value){
+                 if ($cag[$key]['id'] == $da['cid']) {
+                     $temp = $cag[$key];
+                     $cag[$key] = $cag[0];
+                     $cag[0] = $temp;
+                 }
+            }
+            $this->assign('cag',$cag);
+            $this->assign('data',$da);
+            $this->display();
+
+        }
+        elseif (IS_POST) {
+            //那么就是进行提了。是
+           $rn = $this->blogsModel->editData();
+            if ($rn['flag'] ) {
+                $this->success($rn['information']);
+            }
+            else {
+                $this->error($rn['information']);
+            }
+
+
+        }
+        else {
+            //显示初试页面
+           // $this->display('Index:index');
+        }
+
+        // $this->display();
     }
 
 

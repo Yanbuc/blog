@@ -65,11 +65,11 @@
                 data:{
                     "data":JSON.stringify(ob),
                  },
-                 dataType:'JSON',
+               dataType:'JSON',
                 success:function(data,textStatus){
-
                     if (data.status == 200) {
                          window.location = data.data;
+                         alert(data.information);
                    }
                    else {
                          console.log(data.information);
