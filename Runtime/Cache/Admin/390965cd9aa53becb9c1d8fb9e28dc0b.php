@@ -21,6 +21,7 @@
     <![endif]-->
     <script type="text/javascript" src="<?php echo (H_UI_PATH); ?>lib/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="<?php echo (H_UI_PATH); ?>lib/layer/2.4/layer.js"></script>
+
 </head>
 
 <style>
@@ -80,12 +81,13 @@
         <div class="group cl" id="me">
             </span> <span class="dropDown dropDown_hover"><a class="dropDown_A" href="#" style="font-size: 16px;">管理员功能</a>
 					<ul class="dropDown-menu menu radius box-shadow">
-                        <li><a href="<?php echo U('Admin/Index/loginOut');?>" style="font-size: 16px;">退出</a></li>
+                        <li><a href="#" style="font-size: 16px;" id="logout">退出</a></li>
 						<li><a href="#" style="font-size: 16px;">退出</a></li>
 					</ul>
 					</span>
         </div>
   </div>
+
 
  <div id="first">
      <div id="asd">
@@ -179,6 +181,28 @@
         $('#ifm').attr('src',url);
 
     }
+    $('#logout').click(function(){
+        url = '<?php echo U('Admin/Index/loginOut');?>';
+        deleteCookie('tmp');
+        location.href = url;
+
+    })
+
+    function setCookie(name,value,days) {
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime()+(days*24*60*60*1000));
+            var expires = "; expires="+date.toGMTString();
+        }else{
+            var expires = "";
+        }
+        document.cookie = name+"="+value+expires+"; path=/";
+    }
+    // 删除cookie
+    function deleteCookie(name) {
+        setCookie(name,"",-1);
+    }
+
 
 
 </script>

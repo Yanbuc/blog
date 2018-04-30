@@ -58,23 +58,79 @@ class PutBlogController extends AdminBaseController
     }
 
     public function showList(){
-        //查询的话，使用post吧
-         $pageSize = empty($_GET['size']) ? 4 :$_GET['size'];
-         $count = $this->blogsModel->getCount();
-         $p = getPage($count,$pageSize);
-         $list = $this->blogsModel->order('id')->limit($p->firstRow, $p->listRows)->select();
-         $list = $this->delData($list);
-         $ud = U('Admin/PutBlog/showEditContent');
+        //直接设置$pageSize
+        $pageSize = empty($_GET['size']) ? 5 : $_GET['size'];
+        //编辑博客内容的元素
+        $ud = U('Admin/PutBlog/showEditContent');
 
-         $this->assign('xu',$p->firstRow);
-         $this->assign('data',$list);
-         $this->assign('page', $p->show());
-         $this->assign('url',$ud);
-         $this->assign('size',$pageSize);
-         $this->display();
-         //$rn=$this->fetch();
-         //$this->ajaxReturn($rn);
-         //$this->display();
+        //搜索的数据
+        $searchData = '';
+
+        //查询的话，使用post吧
+         if (IS_GET) {
+             $count = $this->blogsModel->getCount();
+             $p = getPage($count, $pageSize);
+             $list = $this->blogsModel->order('id')->limit($p->firstRow, $p->listRows)->select();
+             $list = $this->delData($list);
+             $this->assign('xu', $p->firstRow);
+             $this->assign('data', $list);
+             $this->assign('page', $p->show());
+             $this->assign('url', $ud);
+             $this->assign('size', $pageSize);
+             $this->assign('searchData',$searchData);
+             $this->display();
+         }
+         if (IS_POST){
+             //首先肯定是进行数据过滤
+             $data = I('post.');
+             $pageSize = empty($data['size']) ? 5 : $data['size'];
+             if (empty($data['title'])) {
+                 $count = $this->blogsModel->getCount();
+                 $p = getPage($count, $pageSize);
+                 $list = $this->blogsModel->order('id')->limit($p->firstRow, $p->listRows)->select();
+                 $list = $this->delData($list);
+                 $this->assign('xu', $p->firstRow);
+                 $this->assign('data', $list);
+                 $this->assign('page', $p->show());
+                 $this->assign('url', $ud);
+                 $this->assign('size', $pageSize);
+                 $this->assign('searchData',$searchData);
+                 $this->display();
+             }
+             else {
+                 //这里的话,传入的数据是具有内容的。
+                 unset($data['size']);
+                 //符合条件的数据
+                  $count = $this->blogsModel->getCou($data);
+                  if (empty($count)) {//没有符合条件的数据
+                      $count = $this->blogsModel->getCount();
+                      $p = getPage($count, $pageSize);
+                      $list = $this->blogsModel->order('id')->limit($p->firstRow, $p->listRows)->select();
+                      $list = $this->delData($list);
+                      $this->assign('xu', $p->firstRow);
+                      $this->assign('data', $list);
+                      $this->assign('page', $p->show());
+                      $this->assign('url', $ud);
+                      $this->assign('size', $pageSize);
+                      $this->assign('searchData',$searchData);
+                      $this->display();
+                  }
+                  else {
+                      //具有符合条件的数据
+                      $searchData = $data['title'];
+                      $p = getPage($count, $pageSize);
+                      $list = $this->blogsModel->selectDataByTitle($data,$p);
+                      $list = $this->delData($list);
+                      $this->assign('xu', $p->firstRow);
+                      $this->assign('data', $list);
+                      $this->assign('page', $p->show());
+                      $this->assign('url', $ud);
+                      $this->assign('size', $pageSize);
+                      $this->assign('searchData',$searchData);
+                      $this->display();
+                  }
+             }
+         }
     }
 
 
@@ -213,6 +269,32 @@ class PutBlogController extends AdminBaseController
 
         // $this->display();
     }
+
+    public function deleteAll(){
+        $data = I('post.id');
+        $data = (array)json_decode($data);
+        if (empty($data)) {
+            $this->ajaxError('',404,'失败了');
+        }
+        $rn = $this->blogsModel->deleteAll($data);
+        $bn =$rn['da'];
+        foreach( $bn as $key => $value){
+            if (file_exists($value['avatar'])) {
+                unlink($value['avatar']);
+                $dir = $this->getDirPath($value['avatar']);
+                if (count(scandir($dir)) === 2){
+                    rmdir($dir);
+                }
+            }
+        }
+        if ($rn['flag']) {
+            $this->ajaxSuccess('',200,'');
+        }
+        else {
+            $this->ajaxError('',404,$rn['information']);
+        }
+    }
+
 
 
 

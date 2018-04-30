@@ -341,7 +341,48 @@ class BlogsModel extends BaseModel
 
     }
 
+    //获得符合条件的记录的数目
+    public function getCou($data){
+        $data['title'] = '%' . $data['title'] . '%';
+        $map['title'] = array('like',$data['title']);
+        $rn = $this->where($map)->select();
+        return count($rn);
+    }
 
+
+public function  selectDataByTitle($data,$p){
+        $data['title'] = '%' . $data['title'] . '%';
+        $map['title'] = array('like',$data['title']);
+
+        $list = $this->where($map)->order('id')->limit($p->firstRow, $p->listRows)->select();
+        return $list;
+}
+
+//删除所有
+
+ public function deleteAll($data){
+    $rn = array();
+    $rn['flag'] = false;
+    $pic = D('Picture');
+    $map['id'] = array('in',$data);
+    $mbp['bid'] = array('in',$data);
+    $this->startTrans();
+    $ch = $this->where($map)->delete();
+    if (! $ch) {
+        $this->rollback();
+        $rn['information'] = '删除博客失败了';
+        return $rn;
+    }
+     $da = $pic->where($mbp)->select();
+     $pic->where($mbp)->delete();
+
+     $this->commit();
+     $rn['flag'] = true;
+     $rn['information'] = '删除博客成功';
+     $rn['da'] = $da;
+     return $rn;
+
+ }
 
 
 

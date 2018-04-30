@@ -1,7 +1,12 @@
 <include file="Public:header" />
+<div style="position: relative;left:350px;">
+    <span style="float:left;position: relative;right:280px;"><include file="Public:change" /></span>
+    <span ><include file="Public:search" /></span>
+</div>
 <table class="table table-border table-bordered">
     <thead>
     <tr>
+        <th><input type="checkbox"></th>
         <th>序号</th>
         <th>博客分类</th>
         <th>博客标题</th>
@@ -11,6 +16,7 @@
     <tbody>
     <volist name="data" id="da" key="k" >
         <tr>
+            <th><input type="checkbox" value="{$da['id']}" class="ck"></th>
             <td>{++$xu}</td>
             <td>{$da.cat}</td>
             <td>{$da.title}</td>
@@ -25,6 +31,7 @@
 <script>
     //编辑博客
 
+
    function edit(id){
 
         url = "{$url}";
@@ -36,9 +43,34 @@
                content:url,
       });
    }
+   //设计的专门为转换分页的条数。
+ $('#slc ').change(function(){
+        url = '{:U(\'Admin/PutBlog/showList\')}';
+        url = url + '?size=' + $(this).val();
+        location.href = url;
+ });
 
-
-
+//为搜索框设置一个函数
+   $('#til').blur(
+       function(){
+           //如果只是短暂的点击一下的话，就是什么都不进行操作
+           val = $(this).val();
+           if (val == ''){
+               return ;
+           }
+           else {
+               var size = $('#slc option:selected').val();
+               $('#hi').val(size);
+           }
+       }
+   );
+//设置刷新
+    $('#ref').click(
+        function(){
+            url = '{:U(\'Admin/PutBlog/showList\')}';
+             location.href = url;
+        }
+    );
 
 
    $('.del').click(function(){
@@ -90,8 +122,169 @@
                          break;
                      }
                  }
+                 setCheckBox();
              }
 
    );
+
+   $('.ck').click(function(){
+            $fg = $(this).prop('checked');
+            if ($fg) {
+                dealCookie('tmp',$(this).val());
+            }
+            else {
+                dealCookieD('tmp',$(this).val());
+            }
+       }
+   );
+
+   function dealCookie(name,value){
+        val = getCookie(name);
+        //如果不存在这个cookie的话
+        if (! val){
+            //设置这个cookie的值
+           setCookie(name,value);
+        }
+        else {
+            //如果之前已经存在了这个值的haul，那么
+            val=val+','+value;
+            setCookie('tmp',val);
+        }
+
+   }
+  function dealCookieD(name,value){
+       val = getCookie(name);
+       hk = '';
+       if (! val ) {
+           return ;
+       }
+       else {
+           cm = val.split(',');
+           for(i=0;i<cm.length-1;i++){
+               if (! cm[i] ){
+                   continue;
+               }
+               else {
+                   if (cm[i] == value){
+                       continue;
+                   }
+                   else {
+                       hk = hk + ''+cm[i]+',';
+                   }
+               }
+           }
+           if (cm[i] ==  value){
+               deleteCookie('tmp');
+               setCookie('tmp',hk);
+               return ;
+           }
+           hk = hk + ''+ cm[i];
+           deleteCookie('tmp');
+           setCookie('tmp',hk);
+       }
+  }
+
+
+
+
+
+
+
+
+    function setCookie(name,value,days) {
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime()+(days*24*60*60*1000));
+            var expires = "; expires="+date.toGMTString();
+        }else{
+            var expires = "";
+        }
+        document.cookie = name+"="+value+expires+"; path=/";
+    }
+    // 获取cookie
+    function getCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+    // 删除cookie
+    function deleteCookie(name) {
+        setCookie(name,"",-1);
+    }
+
+
+//设置checkBox的状态
+function setCheckBox(){
+      ck =getCookie('tmp');
+      if (! ck){
+          return ;
+      }
+      cg = ck.split(',');
+      cm = $('.ck');
+      for(i=0;i<cg.length;i++){
+          if (! cg[i]) {
+              continue;
+          }
+          else {
+              for(j=0;j<cm.length;j++){
+                  if (cm[j].value == cg[i]) {
+                      cm[j].checked ='checked';
+                  }
+              }
+
+          }
+      }
+}
+$('#delall').click(function(){
+      var ckk =getCookie('tmp');
+      if (! ckk ) {
+          return ;
+      }
+      else {
+          cg = ckk.split(',');
+          cm = [];
+          j=0;
+          for (i=0;i<cg.length;i++) {
+              if (!cg[i]) {
+                  continue;
+              }
+              else {
+                  cm[j] = cg[i];
+                  j++;
+              }
+          }
+          //然后就是进行传值
+          $.ajax({
+              type:'post',
+              url:'{:U(\'Admin/PutBlog/deleteAll\')}',
+              data:{'id':JSON.stringify(cm)},
+              dataType:'json',
+              success:function (data) {
+                  if (data.status == 200){
+                      deleteCookie('tmp');
+                      location.href = '{:U(\'Admin/PutBlog/showList\')}';
+
+                  }
+                  else {
+                      deleteCookie('tmp');
+                      layer.msg(data.information);
+                      location.replace(location.href);
+                  }
+              },
+              error:function(e,x){
+                  console.log(x)
+              }
+
+          })
+
+      }
+});
+
+
 
 </script>

@@ -1,0 +1,6 @@
+    <form action="{:U('Admin/PutBlog/showList')}" method="post">
+    <label style="font-size: 25px;"><b>搜索框</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="搜索内容" style="border-style:solid;width:150px;height:40px;" name="title" id="til" value="{$searchData}"/>
+        <input type="hidden" name="size" id="hi" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" style="width:80px;height:40px;" value="查找">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" style="width:80px;height:40px;"  id="ref">刷新</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button type="button" style="width:80px;height:40px;" id="delall">批量删除</button>
+        <br/><br>
+    </form>

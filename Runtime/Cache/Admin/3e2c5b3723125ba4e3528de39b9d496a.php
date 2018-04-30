@@ -21,6 +21,7 @@
     <![endif]-->
     <script type="text/javascript" src="<?php echo (H_UI_PATH); ?>lib/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="<?php echo (H_UI_PATH); ?>lib/layer/2.4/layer.js"></script>
+
 </head>
 
 <body style="background-image: url(<?php echo (IMAGE_PATH); ?>admin.jpg);background-size: 100%;">
