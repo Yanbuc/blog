@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{$data['title']}</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+    </style>
+    <script>
+        function backen(){
+            window.history.back();
+        }
+     </script>
+</head>
+<body style="overflow-x: hidden">
+
+
+          <h1>{$data['title']}</h1>
+          <div>
+             {$data['content']}
+           </div>
+         <div style="position:relative;left:250px;" >
+          <a href="{:U('Home/Index/index')}">回到首页</a>
+          <a href="#" id="ac" onclick="backen()">上一页</a>
+         </div>  
+       <include file="Public:word"/>
+</body>
+</html>
