@@ -22,7 +22,7 @@ final class Data
 
      static $c =array();
 
-   static public function tree($data,$title,$id='id',$parent="parent_id"){
+   static public function tree($data,$title='',$id='id',$parent="parent_id"){
           $data = self::channellist($data);
           foreach ($data as $n => &$v){
               if ($v['_level'] == 0){

@@ -35,10 +35,7 @@ class DictionaryController extends AdminBaseController
         $data = \Org\sl\Data::tree($data);
         $this->assign('data',$data);
         $this->display();
-        //print_r($data);
-        //$this->display();
-
-
+      
     }
 
 

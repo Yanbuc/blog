@@ -304,7 +304,7 @@ $('#delall').click(function(){
               success:function (data) {
                   if (data.status == 200){
                       deleteCookie('tmp');
-                      location.href = '<?php echo U('Admin/PutBlog/showList');?>';
+                      location.replace(location.href);
 
                   }
                   else {

@@ -66,7 +66,7 @@ class BlogsModel extends BaseModel
        }
    }
 
-   public function addData($data ){
+   public function addData( ){
        C('DEFAULT_FILTER', 'htmlspecialchars');
        $rn =array(
            'flag' => false,
@@ -74,6 +74,7 @@ class BlogsModel extends BaseModel
        );
        $data = I('post.');
        $data = $this->delimagepath($data);
+
 
       if ($this->create($data)){
           //进行时间的创建
@@ -138,9 +139,11 @@ class BlogsModel extends BaseModel
 
        // 将绝对路径转换为相对路径
        $data['content'] = preg_replace('/src=\"\/blog\/article\//',$path,$data['content']);
+       
 
        // 转义
        $data['content']=htmlspecialchars($data['content']);
+       
        return $data;
 
    }
@@ -163,7 +166,7 @@ class BlogsModel extends BaseModel
 
         //对博客之中的图片进行处理
         $data = $this->delimagepath($data);
-
+        
 
 
         //查看进行更新的是否是正确

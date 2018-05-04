@@ -58,5 +58,8 @@ class IndexController extends HomeBaseController {
           return   $rw;
     }
 
-
+public function test(){
+   $b = C('BLOG_IMAGE_PATH');
+  var_dump($b);
+}
 }

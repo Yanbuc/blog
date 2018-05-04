@@ -42,14 +42,18 @@ class IndexController extends Controller implements \SplSubject {
     }
 
     public function showCheckCode(){
-
+       $this->verify->entry();
+      //var_dump($this->verify);
+      // $this-verify->entry();
+     //  return ; 
+    /*
        if (empty($this->verify)) {
             var_dump('no');
        }
        else {
            $this->verify->entry();
        }
-
+ */
     }
 
     public function login(){
@@ -234,6 +238,13 @@ class IndexController extends Controller implements \SplSubject {
 
     public function getTdyLoginTime(){
         return $this->tdyLoginTimes;
+    }
+    public function testChk(){
+         $b = new Verify();
+          $b->entry();
+         //var_dump($b);
+           //var_dump($this-verify);
+         // $this->verify->entry();
     }
 
 }
