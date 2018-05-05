@@ -1,4 +1,5 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE HTML>
+<?php if (!defined('THINK_PATH')) exit();?>
+<!DOCTYPE HTML>
 <html>
 <head>
     <meta charset="utf-8">
@@ -31,18 +32,20 @@
             <label class="form-label col-xs-4 col-sm-3" style="color:greenyellow;">账号</label>
             <div class="formControls col-xs-8 col-sm-9">
                 <input type="text" class="input-text" autocomplete="off" placeholder="帐号" name="acc" id="acc" style="width:200px;">
+                <span style="color:red;font-size:20px;display: none;" id="cacc">没有输入账号</span>
             </div>
         </div>
         <div class="row cl">
             <label class="form-label col-xs-4 col-sm-3" style="color:greenyellow;" >密码</label>
             <div class="formControls col-xs-8 col-sm-9">
                 <input type="password" class="input-text" autocomplete="off" placeholder="密码" name="pwd" id="pwd" style="width:200px;">
+                <span style="color:red;font-size:20px;display: none;" id="cpwd">没有输入密码</span>
             </div>
         </div>
         <div class="row cl">
             <label class="form-label col-xs-4 col-sm-3" style="color:greenyellow;">验证码</label>
             <div class="formControls col-xs-8 col-sm-9">
-                <input type="text" class="input-text" autocomplete="off" placeholder="验证码" name="ck" id="ck" style="width:200px;"><br/><br/>
+                <input type="text" class="input-text" autocomplete="off" placeholder="验证码" name="ck" id="ck" style="width:200px;"><span style="color:red;font-size:20px;display: none;" id="cchk">没有输入验证码</span><br/><br/>
                 <img src="<?php echo U('Admin/Index/showCheckCode');?>" onclick="this.src='<?php echo U('Admin/Index/showCheckCode');?>'" />
             </div>
         </div>
@@ -56,6 +59,13 @@
 </body>
 <script>
       $('#sub').click(function(){
+          var fg = checkAll();
+          if (! fg ){
+              return ;
+          }
+
+
+
           var ob={};
           ob.acc = $('#acc').val();
           ob.pwd = $('#pwd').val();
@@ -82,6 +92,52 @@
           });
 
       });
+
+    function checkUserName(){
+        var username = $('#acc').val();
+        if (username == '') {
+            $('#cacc').css('display','inline');
+            //$('#cacc').show();
+            return false;
+        }
+        else {
+            return true;
+        }
+
+    }
+
+    function checkPwd(){
+        var pwd = $('#pwd').val();
+        if (pwd == ''){
+            $('#cpwd').show();
+            return false;
+        }
+        return true;
+    }
+
+    function checkCodet(){
+        var checkCode = $('#ck').val();
+        if (checkCode == '' ){
+            $('#cchk').show();
+            return false;
+        }
+        return true;
+
+    }
+
+    function checkAll(){
+        var acc = checkUserName();
+        var pwd = checkPwd();
+        var checkCode = checkCodet();
+        if (!acc || !pwd || !checkCode ) {
+            return false;
+        }
+        return true;
+
+    }
+
+
+
 
 </script>
 
