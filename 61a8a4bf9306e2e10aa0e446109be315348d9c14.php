@@ -19,7 +19,7 @@ define('APP_DEBUG',True);
 
 define('BIND_MODULE','Admin');
 
-define('CITE_ROOT','http://192.168.182.129/');
+define('CITE_ROOT','http://127.0.0.1/');
 
 //define('CITE_ROOT','yuegeable.cn/');
 // 定义应用目录

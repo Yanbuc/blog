@@ -20,7 +20,7 @@
     </style>
 </head>
 <body>
-      <h>欢迎来到月歌的博客</h>
+      <h>欢迎来到月歌的博客</h> <div style="float:right;" ><a>登录</a><a>&nbsp;&nbsp;&nbsp;&nbsp;注册</a></div>
       <div>
           <h3>文章分类</h3>
           <table>

@@ -1,0 +1,22 @@
+[ 2018-05-05T19:15:18+08:00 ] 192.168.182.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Index/checkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0306s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /usr/local/apache2/htdocs/blog/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /usr/local/apache2/htdocs/blog/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT * FROM `users` WHERE `name` = 'yuege'  [ RunTime:0.0439s ]
+SQL: UPDATE `users` SET `tdy_login_times`='1',`last_login_time`='1525518918' WHERE `id` = 1 [ RunTime:0.1885s ]
+
+[ 2018-05-05T19:24:14+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Index/checkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `users` WHERE `name` = 'yuege'  [ RunTime:0.0584s ]
+SQL: UPDATE `users` SET `tdy_login_times`='2',`last_login_time`='1525519454' WHERE `id` = 1 [ RunTime:0.1606s ]
+
