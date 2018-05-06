@@ -42,5 +42,23 @@ return array(
     'BLOG_IMAGE_PATH' => CITE_ROOT.'blog/article/',
 
     'SHOW_PAGE_TRACE' =>true,
+//*************************************************************************
+    //验证码配置
+    'VERIFY_PEIZHI' => array(
+
+        'length' => 4,
+    ),
+
+//****************************
+//定义注册的配置
+    //用户名长度
+    'USER_LENGTH' => 20,
+    //昵称长度
+    'NICKNAME_LENGTH' => 20,
+   //个性签名的长度
+    'TIP_LENGTH' => 30,
+
+
+
 
 );
