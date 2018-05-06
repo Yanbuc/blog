@@ -95,6 +95,7 @@ class RegisterController extends Controller
              //然后就是密码进行加密
               $this->dealPwd();
              //然后就是对用户进行注册了
+              $this->receiveData['last_login_time'] = time();
               $users = D('Users');
               $rn =  $users->addData($this->receiveData);
               if (! $rn ) {
