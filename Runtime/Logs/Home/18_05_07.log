@@ -1,0 +1,16 @@
+[ 2018-05-07T12:34:45+08:00 ] ::1 /blog/index.php/Test/test
+ERR: 1146:Table 'blog.comment_view' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `comment_view`
+
+[ 2018-05-07T12:59:02+08:00 ] ::1 /blog/index.php/Test/test
+ERR: 1054:Unknown column 'zzz' in 'field list'
+ [ SQL语句 ] : SELECT `zzz` FROM `comment_view` 
+
+[ 2018-05-07T15:38:43+08:00 ] ::1 /blog/index.php/Test/test
+ERR: 1054:Unknown column 'zzz' in 'field list'
+ [ SQL语句 ] : SELECT `zzz` FROM `comment_view` 
+
+[ 2018-05-07T15:51:38+08:00 ] ::1 /blog/index.php/Test/test
+ERR: 1054:Unknown column 'zzz' in 'field list'
+ [ SQL语句 ] : SELECT `zzz` FROM `comment_view` 
+

@@ -13,5 +13,8 @@ class HomeBaseController extends Controller
    public function __construct(){
        parent::__construct();
    }
-  
+
+
 }
+
+//缺少一个权限检验 这里。

@@ -66,7 +66,7 @@ class BlogsModel extends BaseModel
        }
    }
 
-   public function addData( ){
+   public function addData($data){
        C('DEFAULT_FILTER', 'htmlspecialchars');
        $rn =array(
            'flag' => false,

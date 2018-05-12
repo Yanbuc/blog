@@ -1,0 +1,120 @@
+<include file="Public:header"/>
+<!--显示所有的评论 -->
+<body>
+<table class="table table-border table-bordered">
+    <thead>
+    <tr>
+        <th><input type="checkbox"></th>
+        <th>用户名</th>
+        <th>博客标题</th>
+        <th>评论内容</th>
+        <th>审核</th>
+        <th>编辑</th>
+    </tr>
+    </thead>
+    <tbody>
+     <volist name="data" id="da">
+    <tr>
+        <th><input type="checkbox" value="{$da['cid']}"></th>
+        <th>{$da['name']}</th>
+        <th>{$da['title']}</th>
+        <th>{$da['comment']}</th>
+        <th> <if  condition="$da['is_checked'] eq 1"> <i class="Hui-iconfont  ckk"  style="font-size: 25px;"  >&#xe6e1;</i> <i class="Hui-iconfont  cgg"  style="font-size: 25px; color:red;display: none;" >&#xe6dd;</i><span  style="display:none ">{$da['cid']}</span> <else/>
+            <i class="Hui-iconfont  ckk"  style="font-size: 25px;display: none;" >&#xe6e1;</i><i class="Hui-iconfont  cgg"  style="font-size: 25px; color:red;"   >&#xe6dd;</i><span  style="display:none ">{$da['cid']}</span>
+             </if>
+
+        </th>
+        <th><i class="Hui-iconfont  ckk"  style="font-size: 25px;" >&#xe6e2;</i></th>
+
+        <!--<th>操作</th> -->
+    </tr>
+     </volist>
+    </tbody>
+</table>
+<span style="font-size: 28px;color: red;"> {$infor}</span>
+<span style="position:absolute;right:200px;">{$page}</span>
+
+<!--<button class="btn btn-success radius" type="button" value="成功" style="position:absolute;right:600px;">保存</button> -->
+
+<script src="{$Think.const.H_UI_PATH}lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="{$Think.const.H_UI_PATH}lib/jquery/1.9.1/jquery.min.js"></script>
+</body>
+  <script>
+
+
+
+            $('.ckk').click(
+                function(){
+                    var g = $(this).next();
+                    var cid = g.next().text();
+                    var is_checked = 0;
+                    m = $(this);
+                    $.ajax({
+                              type:'post',
+                              url:'{:U(\'Admin/Comment/checkComment\')}',
+                              data:{"cid":cid,
+                                     "fg":1,
+                                     "is_checked": is_checked
+                                   },
+                              dataType:'json',
+                              success:function(data){
+                                    if (data.status == 200 ) {
+                                        m.hide();
+                                        g.show();
+                                      return ;
+                                    }
+                                    else {
+                                          layer.msg('审核不成功',{icon:2,time:2000});
+                                    }
+                              }
+
+
+                           });
+
+
+                }
+            );
+           $('.cgg').click(
+                 function(){
+                     var g = $(this).prev();
+                     var cid = $(this).next().text();
+                     var is_checked = 1;
+                     var m = $(this);
+                     $.ajax({
+                         type:'post',
+                         url:'{:U(\'Admin/Comment/checkComment\')}',
+                         data:{"cid":cid,
+                             "fg":1,
+                             "is_checked": is_checked
+                         },
+                         dataType:'json',
+                         success:function(data){
+                             if (data.status == 200 ) {
+                                m.hide();
+                                 g.show();
+                                 return ;
+                             }
+                             else {
+                                 layer.msg('审核不成功',{icon:2,time:2000});
+                             }
+                         }
+
+
+                     });
+
+
+
+
+                 }
+           );
+
+
+
+
+
+
+
+
+
+  </script>
+</html>

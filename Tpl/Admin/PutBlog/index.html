@@ -76,8 +76,11 @@
           <div class="info">显示分类<br />隐藏分类选择</div>
       </li>
       <li class="item">
-          <h4>暂时为空<b>+</b></h4>
-          <div class="info"></div>
+          <h4>评论审核<b>+</b></h4>
+          <div class="info" style="width:100%;padding:0px;">
+              <button style="width:100%;margin:0px;" type="button" onclick="showComment()" >显示尚未审核评论</button>
+          </div>
+
       </li>
   </ul>
      </div>
@@ -163,6 +166,12 @@
     function deleteCookie(name) {
         setCookie(name,"",-1);
     }
+   //显示所有评论
+   function showComment(){
+       var url = "{:U('Admin/Comment/showList')}";
+       $('#ifm').attr('src',url);
+
+   }
 
 
 

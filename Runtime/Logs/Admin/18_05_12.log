@@ -1,0 +1,258 @@
+[ 2018-05-12T18:36:40+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Index/checkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001890s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0174s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `users` WHERE `name` = 'yuege'  [ RunTime:0.0006s ]
+SQL: UPDATE `users` SET `tdy_login_times`='1',`last_login_time`='1526121400' WHERE `id` = 1 [ RunTime:0.0425s ]
+
+[ 2018-05-12T18:43:15+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Index/checkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `users` WHERE `name` = 'yuege'  [ RunTime:0.0004s ]
+SQL: UPDATE `users` SET `tdy_login_times`='2',`last_login_time`='1526121795' WHERE `id` = 1 [ RunTime:0.1088s ]
+
+[ 2018-05-12T19:17:48+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Index/checkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `users` WHERE `name` = 'yuege'  [ RunTime:0.0590s ]
+SQL: UPDATE `users` SET `tdy_login_times`='3',`last_login_time`='1526123868' WHERE `id` = 1 [ RunTime:0.0543s ]
+
+[ 2018-05-12T19:18:25+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Index/checkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002442s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `users` WHERE `name` = 'yuege'  [ RunTime:0.0003s ]
+SQL: UPDATE `users` SET `tdy_login_times`='4',`last_login_time`='1526123905' WHERE `id` = 1 [ RunTime:0.0922s ]
+
+[ 2018-05-12T20:50:45+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/showList.html
+ERR: Think\Model:selectAllComment方法不存在！
+
+[ 2018-05-12T20:52:51+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/showList.html
+ERR: Think\Model:selectAllComment方法不存在！
+
+[ 2018-05-12T21:06:18+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/showList.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN blogs on comment_view.bid = blogs.id' at line 1
+ [ SQL语句 ] : SELECT * FROM  INNER JOIN blogs on comment_view.bid = blogs.id   
+
+[ 2018-05-12T21:18:47+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Index/checkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0007s ]
+
+[ 2018-05-12T21:19:05+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Index/checkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `users` WHERE `name` = 'yuege'  [ RunTime:0.0004s ]
+SQL: UPDATE `users` SET `tdy_login_times`='5',`last_login_time`='1526131145' WHERE `id` = 1 [ RunTime:0.1028s ]
+
+[ 2018-05-12T22:28:56+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0016s ]
+
+[ 2018-05-12T22:29:38+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0006s ]
+
+[ 2018-05-12T22:29:41+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0007s ]
+
+[ 2018-05-12T22:29:44+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0006s ]
+
+[ 2018-05-12T22:30:11+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0008s ]
+
+[ 2018-05-12T22:30:57+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0005s ]
+
+[ 2018-05-12T22:32:39+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001624s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0005s ]
+
+[ 2018-05-12T22:32:40+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0009s ]
+
+[ 2018-05-12T22:32:40+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0005s ]
+
+[ 2018-05-12T22:33:32+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0006s ]
+
+[ 2018-05-12T22:33:55+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0006s ]
+
+[ 2018-05-12T22:34:19+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0006s ]
+
+[ 2018-05-12T22:34:20+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0005s ]
+
+[ 2018-05-12T22:35:37+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2018-05-12T22:36:12+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001155s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001256s ]
+
+[ 2018-05-12T22:36:41+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2018-05-12T22:37:05+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2018-05-12T22:38:09+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' D:\phpStudy\WWW\blog\Application\Admin\Controller\CommentController.class.php 第 37 行.
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' D:\phpStudy\WWW\blog\Application\Admin\Controller\CommentController.class.php 第 38 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001015s ]
+
+[ 2018-05-12T22:38:26+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' D:\phpStudy\WWW\blog\Application\Admin\Controller\CommentController.class.php 第 37 行.
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' D:\phpStudy\WWW\blog\Application\Admin\Controller\CommentController.class.php 第 38 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2018-05-12T22:40:28+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' D:\phpStudy\WWW\blog\Application\Admin\Controller\CommentController.class.php 第 37 行.
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' D:\phpStudy\WWW\blog\Application\Admin\Controller\CommentController.class.php 第 38 行.
+SQL: UPDATE `comment` SET `is_checked`='1' WHERE `cid` = 2 [ RunTime:0.0820s ]
+
+[ 2018-05-12T23:20:45+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Index/checkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002228s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `users` WHERE `name` = 'yuege'  [ RunTime:0.0004s ]
+SQL: UPDATE `users` SET `tdy_login_times`='6',`last_login_time`='1526138445' WHERE `id` = 1 [ RunTime:0.0905s ]
+
+[ 2018-05-12T23:28:22+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/showList.html
+ERR: Think\Controller:dislpay方法不存在！
+
+[ 2018-05-12T23:40:43+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' D:\phpStudy\WWW\blog\Application\Admin\Controller\CommentController.class.php 第 51 行.
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' D:\phpStudy\WWW\blog\Application\Admin\Controller\CommentController.class.php 第 52 行.
+SQL: UPDATE `comment` SET `is_checked`='1' WHERE `cid` = 1 [ RunTime:0.0262s ]
+
+[ 2018-05-12T23:41:48+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0018s ]
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' D:\phpStudy\WWW\blog\Application\Admin\Controller\CommentController.class.php 第 53 行.
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' D:\phpStudy\WWW\blog\Application\Admin\Controller\CommentController.class.php 第 54 行.
+SQL: UPDATE `comment` SET `is_checked`='1' WHERE `cid` = 2 [ RunTime:0.0567s ]
+
+[ 2018-05-12T23:41:52+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' D:\phpStudy\WWW\blog\Application\Admin\Controller\CommentController.class.php 第 53 行.
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' D:\phpStudy\WWW\blog\Application\Admin\Controller\CommentController.class.php 第 54 行.
+SQL: UPDATE `comment` SET `is_checked`='1' WHERE `cid` = 1 [ RunTime:0.0003s ]
+
