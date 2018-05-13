@@ -40,7 +40,7 @@
     <div class="row cl">
         <label class="form-label col-xs-4 col-sm-3">验证码</label>
         <div class="formControls col-xs-8 col-sm-9">
-            <input id="ver" name="ver" type="text" class="input-text" autocomplete="off" placeholder="密码" style="width:20%;">
+            <input id="ver" name="ver" type="text" class="input-text" autocomplete="off" placeholder="验证码" style="width:20%;">
             <img  src="{:U('Home/Register/showCheckCode')}" onclick="this.src = '{:U(\'Home/Register/showCheckCode\')}'"/>
             <span style="font-size: 20px;color:red; display:none;" id="cver">没有输入密码</span>
             <span style="font-size: 20px;color:red; " >{$data['ver']}</span>

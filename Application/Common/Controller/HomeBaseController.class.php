@@ -14,6 +14,44 @@ class HomeBaseController extends Controller
        parent::__construct();
    }
 
+    public function checkTk()
+    {
+        if (empty($_SESSION['token'])) {
+           // $this->redirect('Admin/Index/index');
+        }
+        else {
+            $v=new JWT();
+            try{
+                $jwt=$v::decode($_SESSION['token'],C('JWT_KEY'),array(C('JWT_ALG')));
+                if ($jwt) {
+                    return true;
+                }
+                else {
+                 //    $this->redirect('Admin/Index/index');
+                }
+            }
+            catch(BeforeValidException $e){
+                unset($_SESSION['token']);
+                $this->redirect('Admin/Index/index');
+            }
+            catch(ExpiredException $e){
+                unset($_SESSION['token']);
+                $this->redirect('Admin/Index/index');
+            }
+            catch(SignatureInvalidException $e){
+                unset($_SESSION['token']);
+                $this->redirect('Admin/Index/index');
+            }
+            catch(\UnexpectedValueException $e){
+                unset($_SESSION['token']);
+                $this->redirect('Admin/Index/index');
+            }
+
+
+        }
+
+    }
+
 
 }
 

@@ -9,6 +9,7 @@
 namespace Home\Controller;
 use \Common\Controller\HomeBaseController;
 use \Common\Model\BlogsModel;
+ use  \Home\Controller\HomeCommentController;
 class ShowBlogController extends  HomeBaseController
 {
     protected $blogsModel = null;
@@ -21,11 +22,21 @@ class ShowBlogController extends  HomeBaseController
 
     //展示博客
     public function showBlog(){
+
         if (IS_GET){
+          //这里不仅仅要展示博客，还要展示评论
               $data['id'] = I('get.bid');
               $da = $this->blogsModel->findData($data);
               $da = $this->transhtml($da);
               $this->assign('data',$da);
+
+              //获得评论 并且展示
+              $commentController =   new HomeCommentController();
+              $tree = $commentController->showCommentList($data['id']);
+              $this->assign('tree',$tree);
+
+
+
               $this->display();
         }
         else {

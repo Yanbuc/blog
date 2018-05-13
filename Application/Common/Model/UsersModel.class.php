@@ -23,6 +23,19 @@ class UsersModel extends BaseModel
        return $rn;
     }
 
+    public function getPwdAndIdAndRole($data){
+        $arr = array(
+                        'users.password' => 'password',
+                        'role.r_name' => 'role',
+                        'users.id' => 'id'
+
+                    );
+        $da = $this->join('role on users.rid = role.rid ')
+                   ->where($data)
+                   ->field($arr)
+                   ->find();
+       return $da;
+    }
 
 
 }

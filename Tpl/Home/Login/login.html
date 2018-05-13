@@ -1,0 +1,105 @@
+<include file="Public:header" />
+<body>
+<form action="{:U('Home/Login/checkLogin')}" method="post" class="form form-horizontal" id="demoform-1">
+    <div class="row cl" >
+        <label class="form-label col-xs-4 col-sm-3">用户名：</label>
+        <div class="formControls col-xs-8 col-sm-9">
+            <input type="text" class="input-text" autocomplete="off" placeholder="用户名" style="width:40%;" id="user" name="user">
+            <span style="font-size: 20px;color:red; display:none;" id="cuse">没有输入验证码</span>
+            <span style="font-size: 20px;color:red; " >{$error['userError']}</span>
+        </div>
+    </div>
+    <div class="row cl">
+        <label class="form-label col-xs-4 col-sm-3">密码：</label>
+        <div class="formControls col-xs-8 col-sm-9">
+            <input type="password" class="input-text" autocomplete="off" placeholder="密码" style="width:40%;" id="password" name="password">
+            <span style="font-size: 20px;color:red; display:none;" id="cpwd">没有输入验证码</span>
+            <span style="font-size: 20px;color:red; " >{$error['passwordError']}</span>
+        </div>
+    </div>
+    <div class="row cl">
+        <label class="form-label col-xs-4 col-sm-3">验证码</label>
+        <div class="formControls col-xs-8 col-sm-9">
+            <input id="ver" name="ver" type="text" class="input-text" autocomplete="off" placeholder="验证码" style="width:20%;" >
+            <img  src="{:U('Home/Login/showCheckCode')}" onclick="this.src = '{:U(\'Home/Login/showCheckCode\')}'"/>
+            <span style="font-size: 20px;color:red; display:none;" id="cver">没有输入验证码</span>
+            <span style="font-size: 20px;color:red; " >{$error['checkCodeError']}</span>
+        </div>
+    </div>
+    <div class="row cl">
+        <div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+            <input class="btn btn-primary radius" type="button" value="登录" id="sub1">
+        </div>
+    </div>
+</form>
+</body>
+  <script>
+             $('#sub1').click(
+                            function(){
+                                /*
+                                     $fg = checkAll();
+                                     if ( !$fg ) {
+                                          return false;
+                                     }
+                                 */
+                                $('#demoform-1').submit();
+
+                                   /*
+                                     var data = {};
+                                     data.user = $('#user').val();
+                                     data.password = $('#password').val();
+                                     data.ver = $('#ver').val();
+                                     $.ajax({
+                                           type:'post',
+                                           url:'{:U(\'Home/Login/checkLogin\')}',
+                                           data:{"data":JSON.stringify(data)},
+                                           success:function(data) {
+                                                console.log(data);
+                                           },
+                                           error:function(e,x){
+
+                                           }
+
+
+                                     });
+                                     */
+                            }
+             );
+             function checkUser(){
+                  var user = $('#user').val();
+                  if (user == '') {
+                    $('#cuse').show();
+                     return false;
+                  }
+                  return true;
+             }
+             function checkPwd(){
+                 var password = $('#password').val();
+                 if (password == '') {
+                     $('#cpwd').show();
+                     return false;
+                 }
+                 return true;
+             }
+           function checkCheckCode(){
+                 var checkCode = $('#ver').val();
+                 if ( checkCode == '' ) {
+                     $('#cver').show();
+                     return false;
+                 }
+                 return true;
+           }
+
+           function checkAll(){
+               var user = checkUser();
+               var pwd = checkPwd();
+               var checkCode = checkCheckCode();
+               if (! user || ! pwd || ! checkCode ) {
+                   return false;
+               }
+               return true;
+           }
+
+  </script>
+
+</html>

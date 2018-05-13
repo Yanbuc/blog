@@ -12,7 +12,9 @@
         function backen(){
             window.history.back();
         }
-     </script>
+    </script>
+    <taglib name="My" />
+    <My:fg />
 </head>
 <body style="overflow-x: hidden">
 
@@ -21,10 +23,55 @@
           <div>
              {$data['content']}
            </div>
-         <div style="position:relative;left:250px;" >
-          <a href="{:U('Home/Index/index')}">回到首页</a>
-          <a href="#" id="ac" onclick="backen()">上一页</a>
-         </div>  
-       <include file="Public:word"/>
+          <div style="position:relative;left:150px;">
+              <label><h3>评论：</h3></label>
+              <volist name="tree" id="com">
+                    <div>
+                        <span>{$com['prefix']}</span>
+                        <span style="color: red;"><b>{$com['name']}</b></span><br/>
+                        <span>{$com['prefix']}</span><span>{$com['comment']}</span>&nbsp;&nbsp;<span class="response">回复</span>
+                        <div style="display: none;" class="resText">
+                            <form>
+                                <span>{$com['prefix']}</span><input type="text" />&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="发表" />
+                            </form>
+                            <span>{$com['prefix']}</span> <span class="shadow"><b>隐藏</b></span>
+                        </div>
+                    </div>
+              </volist>
+
+          </div>
+         <include file="Public:word"/>
+          <div style="position:relative;left:250px;" >
+              <a href="{:U('Home/Index/index')}">回到首页</a>
+              <a href="#" id="ac" onclick="backen()">上一页</a>
+          </div>
+
 </body>
+<script>
+    //为回复按钮 设置动作
+      $('.response').click(
+             function (){
+                 //这里还缺乏的就是 对于用户是否已经登录的检验。
+                 $('.resText').hide();
+                 $(this).next().show();
+             }
+
+      );
+      $('.shadow').click(
+            function (){
+                $(this).parent().hide();
+
+            }
+
+      );
+
+      //向前端的后台部分发送请求 查看是否登录
+     function checkIsLogin(){
+
+
+     }
+
+
+
+</script>
 </html>

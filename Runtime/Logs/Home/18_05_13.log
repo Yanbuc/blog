@@ -1,0 +1,60 @@
+[ 2018-05-13T10:53:59+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+ERR: 无法加载控制器:Admin
+
+[ 2018-05-13T10:54:26+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+ERR: 无法加载控制器:Admin
+
+[ 2018-05-13T10:57:07+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+ERR: 无法加载控制器:Admin
+
+[ 2018-05-13T11:00:57+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+ERR: 无法加载控制器:Admin
+
+[ 2018-05-13T11:01:39+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+ERR: 无法加载控制器:Admin
+
+[ 2018-05-13T11:01:44+08:00 ] ::1 /blog/index.php/Admin/Index/index.html
+ERR: 无法加载控制器:Admin
+
+[ 2018-05-13T11:28:29+08:00 ] ::1 /blog/index.php/ShowBlog/showBlog/bid/1.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM  
+
+[ 2018-05-13T11:34:35+08:00 ] ::1 /blog/index.php/ShowBlog/showBlog/bid/1.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ON comment.uid = users.id  JOIN users users' at line 1
+ [ SQL语句 ] : SELECT comment.cid AS cid,comment.uid AS uid,comment.comment AS comment,comment.pid AS pid,comment.is_checked AS is_checked,comment.bid AS bid,users.name AS name FROM comment comment ON comment.uid = users.id  JOIN users users 
+
+[ 2018-05-13T18:13:15+08:00 ] ::1 /blog/index.php/Login/checkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\phpStudy\WWW\blog\Application\Home\Controller\LoginController.class.php 第 53 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2018-05-13T18:13:48+08:00 ] ::1 /blog/index.php/Login/checkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2018-05-13T18:21:15+08:00 ] ::1 /blog/index.php/Login/checkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
