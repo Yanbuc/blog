@@ -12,11 +12,20 @@ class IndexController extends HomeBaseController {
     }
 
     public function index(){
-        $rn = $this->showlist();
-        $rn = $this->showType($rn);
-        $this->assign('type',$rn);
-        $this->display('index');
+        if ( session('?username') && session('?uid') ) {
+            $rn = $this->showlist();
+            $rn = $this->showType($rn);
+            $this->assign('type',$rn);
+            $this->assign('user',session('username'));
+            $this->display('index');
 
+        }
+        else {
+            $rn = $this->showlist();
+            $rn = $this->showType($rn);
+            $this->assign('type',$rn);
+            $this->display('index');
+        }
     }
 
     public function showlist($data = array()){

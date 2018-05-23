@@ -20,7 +20,7 @@
     </style>
 </head>
 <body>
-<h>欢迎来到月歌的博客</h> <div style="float:right;" ><a href="<?php echo U('Home/Login/login');?>">登录</a>&nbsp;&nbsp;&nbsp;<a href="<?php echo U('Home/Register/register');?>">注册</a>&nbsp;&nbsp;<a>退出</a></div>
+<h>欢迎来到月歌的博客</h> <div style="float:right;" ><?php if(empty($user)): ?><a href="<?php echo U('Home/Login/login');?>">登录</a><?php endif; if(!empty($user)): echo ($user); endif; ?>&nbsp;&nbsp;&nbsp;<a href="<?php echo U('Home/Register/register');?>">注册</a>&nbsp;&nbsp;<a href="<?php echo U('Home/Login/logout');?>">退出</a></div>
       <div>
           <h3>文章分类</h3>
           <table>

@@ -11,6 +11,7 @@ use \Think\Controller;
 use \Think\Verify;
 use \Common\Model\UsersModel;
 use Firebase\JWT\JWT;
+use \Home\Controller\IndexController;
 class LoginController extends Controller
 {
     protected $verify = null;
@@ -49,8 +50,9 @@ class LoginController extends Controller
 
    //退出按钮
    public function logout(){
-
-
+       session('uid',null);
+       session('user',null);
+       $this->redirect('Home/Index/index');
    }
 
    public function checkLogin(){
@@ -63,7 +65,7 @@ class LoginController extends Controller
            $this->display('login');
            return ;
        }
-      /*
+
        //检查验证码是否正确
        $fg1 = $this->checkCode();
        if (! $fg1 ) {
@@ -71,7 +73,7 @@ class LoginController extends Controller
            $this->display('login');
            return ;
        }
-     */
+
        //接下来就是检车输入的用户名了
        //如果用户名存在的话，顺便去除用户名的信息。
        $fg1 = $this->checkUser();
@@ -89,8 +91,12 @@ class LoginController extends Controller
            $this->display('login');
            return ;
        }
-       echo "yes";
-
+       //然后就是存储用户的信息了
+       session('uid',$this->data['uid']);
+       session('username',$this->data['user']);
+       //然后就是跳转页面到首页面了。
+       //但是这里还是需要修改。暂时如此
+       $this->redirect('Home/Index/index');
    }
 
     //检查输入的数据是否为空
