@@ -58,7 +58,6 @@ class LoginController extends Controller
    public function checkLogin(){
 
        //首先检查的是输入的值是否有空缺。
-
        $fg1 = $this->checkEmpty();
        if (! $fg1 ){
            $this->assign('error',$this->errInfo);

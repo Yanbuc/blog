@@ -20,7 +20,7 @@
     </style>
 </head>
 <body>
-<h>欢迎来到月歌的博客</h> <div style="float:right;" ><empty name="user"><a href="{:U('Home/Login/login')}">登录</a></empty><notempty name="user">{$user}</notempty>&nbsp;&nbsp;&nbsp;<a href="{:U('Home/Register/register')}">注册</a>&nbsp;&nbsp;<a href="{:U('Home/Login/logout')}">退出</a></div>
+<h>{$blogTitle}</h> <div style="float:right;" ><empty name="user"><a href="{:U('Home/Login/login')}">登录</a></empty><notempty name="user">{$user}</notempty>&nbsp;&nbsp;&nbsp;<a href="{:U('Home/Register/register')}">注册</a>&nbsp;&nbsp;<a href="{:U('Home/Login/logout')}">退出</a></div>
       <div>
           <h3>文章分类</h3>
           <table>
@@ -32,6 +32,10 @@
           </table>
       </div>
        {$rn[0]['id']}
-
+    <br/>
+    <br/>
+    <div style="position: absolute;left:200px;">
+        <span style="font-size:26px;color:green;"> {$words}</span>
+    </div>
 </body>
 </html>

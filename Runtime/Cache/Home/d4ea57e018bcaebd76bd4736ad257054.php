@@ -20,7 +20,7 @@
     </style>
 </head>
 <body>
-<h>欢迎来到月歌的博客</h> <div style="float:right;" ><?php if(empty($user)): ?><a href="<?php echo U('Home/Login/login');?>">登录</a><?php endif; if(!empty($user)): echo ($user); endif; ?>&nbsp;&nbsp;&nbsp;<a href="<?php echo U('Home/Register/register');?>">注册</a>&nbsp;&nbsp;<a href="<?php echo U('Home/Login/logout');?>">退出</a></div>
+<h><?php echo ($blogTitle); ?></h> <div style="float:right;" ><?php if(empty($user)): ?><a href="<?php echo U('Home/Login/login');?>">登录</a><?php endif; if(!empty($user)): echo ($user); endif; ?>&nbsp;&nbsp;&nbsp;<a href="<?php echo U('Home/Register/register');?>">注册</a>&nbsp;&nbsp;<a href="<?php echo U('Home/Login/logout');?>">退出</a></div>
       <div>
           <h3>文章分类</h3>
           <table>
@@ -30,6 +30,10 @@
           </table>
       </div>
        <?php echo ($rn[0]['id']); ?>
-
+    <br/>
+    <br/>
+    <div style="position: absolute;left:200px;">
+        <span style="font-size:26px;color:green;"> <?php echo ($words); ?></span>
+    </div>
 </body>
 </html>
