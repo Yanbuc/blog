@@ -50,7 +50,22 @@
     //编辑验证
     function editConfirm( id){
         layer.confirm('是否删除?', {icon: 3, title:'提示'}, function(index){
-           // alert(id);
+              $.ajax({
+                  url:"<?php echo U('Admin/Dictionary/deleteCategory');?>" ,
+                  type:"post",
+                  data:{"id":id},
+                  dataType:'JSON',
+                  success:function(data){
+                      layer.msg('删除成功', {icon: 1,time:2000},function(){
+                          window.location.reload();
+                      });
+                  },
+                  error:function(imfor){
+                      layer.msg('删除失败', {icon: 2,time:2000},function(){
+                          window.location.reload();
+                      });
+                  }
+              });
 
             layer.close(index);
         });

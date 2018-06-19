@@ -1,0 +1,63 @@
+<include file="Public:header" />
+<body>
+<table class="table table-border table-bordered">
+    <thead>
+    <tr>
+        <th>序号</th>
+        <th>分类名称</th>
+    </tr>
+    </thead>
+    <tbody>
+    <volist name="data" id="da" key="k" >
+        <tr>
+            <td>{++$xu}</td>
+            <td>{$da.category}</td>
+            <td><span onclick="editCal('{$da.id}')">编辑</span>&nbsp;&nbsp;&nbsp;<span onclick="del('{$da.id}')" >删除</span></td>
+        </tr>
+    </volist>
+    </tbody>
+</table>
+<span>{$page}</span>
+</body>
+<script src="{$Think.const.H_UI_PATH}lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="{$Think.const.H_UI_PATH}lib/jquery/1.9.1/jquery.min.js"></script>
+<script>
+        function del( id ){
+            layer.confirm('是否删除', {icon: 3, title:'提示'},function(index){
+                $.ajax({
+                           url:'{:U(\'Admin/Category/deleteCal\')}',
+                           type:'post',
+                           dataType:"json",
+                           data:{"id":id},
+                           success:function(data){
+                                 if (data.status == 200) {
+                                     layer.msg('删除成功', {icon: 1,time:2000},function(){
+                                         window.location.reload();
+                                     });
+                                 }
+                                 else {
+                                     layer.msg(data.information, {icon: 1,time:2000},function(){
+                                         window.location.reload();
+                                     });
+                                 }
+                           },
+                           error:function(da,e){
+                              console.log(e);
+                           }
+
+                       })
+
+            })
+        }
+        function editCal(id){
+            var url = "{:U('Admin/Category/editCal')}";
+            url = url +"?id= "+id;
+            layer.open({
+                type:2,
+                content:url,
+                maxmin:true
+            });
+        }
+
+</script>
+</html>

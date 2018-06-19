@@ -110,7 +110,11 @@
       </li>
       <li class="item">
           <h4>分类管理<b>+</b></h4>
-          <div class="info">显示分类<br />隐藏分类选择</div>
+          <div class="info" style="width:100%;padding:0px;">
+              <button style="width:100%;margin:0px;" type="button" onclick="showCategoryList()">显示分类</button>
+              <br><button style="width:100%;margin:0px;" type="button" >添加分类</button>
+          </div>
+
       </li>
       <li class="item">
           <h4>评论审核<b>+</b></h4>
@@ -212,6 +216,11 @@
 
    }
 
+     //显示所有分类
+    function showCategoryList(){
+        var url = "<?php echo U('Admin/Category/showList');?>";
+        $('#ifm').attr('src',url);
+    }
 
 
 </script>

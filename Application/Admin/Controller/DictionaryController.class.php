@@ -38,6 +38,16 @@ class DictionaryController extends AdminBaseController
       
     }
 
+    public function deleteCategory(){
+        $data['id'] =  I('post.id');
+        if(empty($data['id'])) {
+            $this->ajaxError('', 404, '传入参数不正确');
+        }
+        else {
+             $this->category->deleteData($data);
+             $this->ajaxSuccess('',200,'删除成功');
+        }
+    }
 
 
 }
