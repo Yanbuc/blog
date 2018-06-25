@@ -37,6 +37,7 @@
 
 
           <h1><?php echo ($data['title']); ?></h1>
+          <input type="hidden" value="<?php echo ($bid); ?>" id="bid"/>
           <div>
              <?php echo ($data['content']); ?>
            </div>
@@ -47,31 +48,26 @@
                         <span style="color: red;"><b><?php echo ($com['name']); ?></b></span><br/>
                         <span><?php echo ($com['prefix']); ?></span><span><?php echo ($com['comment']); ?></span>&nbsp;&nbsp;<span class="response">回复</span>
                         <div style="display: none;" class="resText">
-                            <form>
-                                <span><?php echo ($com['prefix']); ?></span><input type="text" />&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="发表" />
+                            <form >
+                                <span><?php echo ($com['prefix']); ?></span>
+                                <input type="text"  class=".su"/>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type="button" value="发表"  class="fa"/>
+                                <input type="hidden" value="<?php echo ($com['cid']); ?>">
                             </form>
                             <span><?php echo ($com['prefix']); ?></span> <span class="shadow"><b>隐藏</b></span>
                         </div>
                     </div><?php endforeach; endif; else: echo "" ;endif; ?>
-
           </div>
-         <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>留言板</title>
-</head>
-<body>
+         
 <div>
-    <form>
-    <textarea placeholder="留言板"  name="comment"  style="width:600px;height:200px;font-size:22px;position:relative;left:70px;"></textarea>
-    <br/> <input type="button"  id="comment" style="width:120px;height:40px;position:relative;left:180px;"  value="发表评论">
+    <form >
+    <textarea placeholder="留言板"  name="comment"  style="width:600px;height:200px;font-size:22px;position:relative;left:70px;" id="words"></textarea>
+    <br/> <input type="button"  id="comment" style="width:120px;height:40px;position:relative;left:180px;"  value="发表评论" onclick="subWords()">
     </form>
 </div>
 
 
-</body>
-</html>
+
 
           <div style="position:relative;left:250px;" >
               <a href="<?php echo U('Home/Index/index');?>">回到首页</a>
@@ -79,7 +75,10 @@
           </div>
 
 </body>
+<script src="<?php echo (H_UI_PATH); ?>lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="<?php echo (H_UI_PATH); ?>lib/jquery/1.9.1/jquery.min.js"></script>
 <script>
+    var flag;
     //为回复按钮 设置动作
       $('.response').click(
              function (){
@@ -96,12 +95,119 @@
             }
 
       );
+    function subWords(){
+        var text = $('#words').val();
+        var bid = $('#bid').val();
+        var pid = 0;
+        $.ajax({
+            type:'post',
+            url:'<?php echo U('Home/Comment/checkUserLogin');?>',
+            dataType:'JSON',
+            success:function(data) {
+                if (data.status == 200) {
+                    if (text == '') {
+                        layer.msg("请输入评论");
+                        return ;
+                    }
+                    $.ajax({
+                        type:'post',
+                        url:'<?php echo U('Home/Comment/addWords');?>',
+                        data:{
+                            "text":JSON.stringify(text),
+                            "bid":bid,
+                            "pid":pid,
+                        },
+                        dataType:"JSON",
+                        success:function(data) {
+                            if (data.status  ==200) {
+                                window.location.reload();
+                                return ;
+                            }
+                            else {
+                                layer.msg(data.information);
+                                window.location.reload();
+                                return
+                            }
+                        },
+                        error:function(e,x) {
+                            layer.msg("sorry error");
+                            console.log(x);
+                        }
+                    })
+                    return ;
+                }
+                layer.msg('用户没有登录');
+                window.flag =false;
+            },
+            error:function(e,x) {
+                console.log(x);
+            }
+        })
 
-      //向前端的后台部分发送请求 查看是否登录
-     function checkIsLogin(){
 
 
-     }
+
+
+    }
+
+  //发表评论
+    $('.fa').click(function(){
+         var  prev = $(this).prev();
+         var next = $(this).next();
+         var text = prev.val();
+         var pid = next.val();
+         var bid = $('#bid').val();
+         if (text == '' ) {
+             layer.msg("请输入评论");
+             return ;
+         }
+         if (pid == ''){
+             layer.msg("莫名错误");
+             return ;
+         }
+          $.ajax({
+              type:'post',
+              url:'<?php echo U('Home/Comment/checkUserLogin');?>',
+              dataType:'JSON',
+              success:function(data){
+                  if (data.status == 200) {
+                      $.ajax({
+                          type:'post',
+                          url:'<?php echo U('Home/Comment/addWords');?>',
+                          data:{
+                              "text":JSON.stringify(text),
+                              "bid" :bid,
+                              "pid":pid,
+                          },
+                          dataType:'JSON',
+                          success:function(data){
+                              if (data.status == 200) {
+                                  window.location.reload();
+                                  return ;
+                              }
+                              else {
+                                  layer.msg(data.information);
+                                  //window.location.reload();
+                                  return
+                              }
+                          },
+                          error:function(e,x){
+                              layer.msg("error");
+                              return ;
+                          }
+                      })
+                  }
+                  else {
+                      layer("尚未登录,w无法发表评论");
+                      return ;
+                  }
+              },
+              error:function(e,x){
+                  layer.msg("error");
+                  console.log(x);
+              }
+          })
+    });
 
 
 

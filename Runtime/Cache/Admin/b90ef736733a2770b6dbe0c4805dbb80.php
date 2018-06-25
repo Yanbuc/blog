@@ -62,9 +62,6 @@
 <script type="text/javascript" src="<?php echo (H_UI_PATH); ?>lib/jquery/1.9.1/jquery.min.js"></script>
 </body>
   <script>
-
-
-
             $('.ckk').click(
                 function(){
                     var g = $(this).next();

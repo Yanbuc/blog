@@ -29,14 +29,11 @@ class ShowBlogController extends  HomeBaseController
               $da = $this->blogsModel->findData($data);
               $da = $this->transhtml($da);
               $this->assign('data',$da);
-
+              $this->assign('bid',$data['id']);
               //获得评论 并且展示
               $commentController =   new HomeCommentController();
               $tree = $commentController->showCommentList($data['id']);
               $this->assign('tree',$tree);
-
-
-
               $this->display();
         }
         else {

@@ -1,0 +1,1286 @@
+[ 2018-06-25T13:10:55+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+ERR: Think\Controller:ajaxError方法不存在！
+
+[ 2018-06-25T13:10:56+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+ERR: Think\Controller:ajaxError方法不存在！
+
+[ 2018-06-25T13:10:56+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+ERR: Think\Controller:ajaxError方法不存在！
+
+[ 2018-06-25T13:10:57+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+ERR: Think\Controller:ajaxError方法不存在！
+
+[ 2018-06-25T13:11:10+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+ERR: Think\Controller:ajaxError方法不存在！
+
+[ 2018-06-25T13:11:52+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+ERR: Think\Controller:ajaxError方法不存在！
+
+[ 2018-06-25T13:13:00+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+ERR: Think\Controller:ajaxSuccess方法不存在！
+
+[ 2018-06-25T13:14:05+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001372s ]
+
+[ 2018-06-25T13:14:37+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+
+[ 2018-06-25T13:14:39+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+
+[ 2018-06-25T13:14:42+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+
+[ 2018-06-25T13:14:42+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+
+[ 2018-06-25T13:14:42+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+
+[ 2018-06-25T13:15:17+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2018-06-25T13:15:18+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2018-06-25T13:15:18+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2018-06-25T13:16:05+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2018-06-25T13:17:13+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+
+[ 2018-06-25T13:17:34+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001699s ]
+
+[ 2018-06-25T13:18:04+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+
+[ 2018-06-25T13:18:04+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+
+[ 2018-06-25T13:18:05+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+
+[ 2018-06-25T13:18:05+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+
+[ 2018-06-25T13:18:27+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+
+[ 2018-06-25T13:18:27+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+
+[ 2018-06-25T13:18:28+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+
+[ 2018-06-25T13:19:04+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+
+[ 2018-06-25T13:19:16+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+
+[ 2018-06-25T13:21:04+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+
+[ 2018-06-25T13:21:43+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+
+[ 2018-06-25T13:26:38+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+
+[ 2018-06-25T13:26:39+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001280s ]
+
+[ 2018-06-25T13:26:39+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+
+[ 2018-06-25T13:26:39+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+
+[ 2018-06-25T13:26:58+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+
+[ 2018-06-25T13:26:58+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+
+[ 2018-06-25T13:26:58+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+
+[ 2018-06-25T13:26:59+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+
+[ 2018-06-25T13:26:59+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+
+[ 2018-06-25T13:27:13+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+
+[ 2018-06-25T13:27:56+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001712s ]
+
+[ 2018-06-25T13:28:36+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+
+[ 2018-06-25T13:29:46+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+
+[ 2018-06-25T13:30:01+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+
+[ 2018-06-25T13:30:15+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002254s ]
+
+[ 2018-06-25T13:30:17+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+
+[ 2018-06-25T13:30:18+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+
+[ 2018-06-25T13:30:18+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+
+[ 2018-06-25T13:30:19+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+
+[ 2018-06-25T13:30:19+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+
+[ 2018-06-25T13:30:19+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+
+[ 2018-06-25T13:30:19+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+
+[ 2018-06-25T13:30:42+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002059s ]
+
+[ 2018-06-25T13:31:11+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+
+[ 2018-06-25T13:31:41+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+
+[ 2018-06-25T13:32:01+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002324s ]
+
+[ 2018-06-25T13:32:18+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+
+[ 2018-06-25T14:27:08+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+
+[ 2018-06-25T14:28:21+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001820s ]
+
+[ 2018-06-25T14:28:33+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001823s ]
+
+[ 2018-06-25T14:29:01+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+
+[ 2018-06-25T14:34:54+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+
+[ 2018-06-25T14:34:55+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+
+[ 2018-06-25T14:34:55+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+
+[ 2018-06-25T14:34:55+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+
+[ 2018-06-25T14:34:59+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+
+[ 2018-06-25T14:35:11+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+
+[ 2018-06-25T14:53:28+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+
+[ 2018-06-25T14:53:59+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+
+[ 2018-06-25T14:55:09+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+
+[ 2018-06-25T14:55:10+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+
+[ 2018-06-25T14:55:10+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+
+[ 2018-06-25T14:55:11+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+
+[ 2018-06-25T14:55:11+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+
+[ 2018-06-25T14:55:11+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000995s ]
+
+[ 2018-06-25T14:55:11+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2018-06-25T14:55:12+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2018-06-25T14:55:12+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2018-06-25T14:55:17+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002583s ]
+
+[ 2018-06-25T14:55:18+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2018-06-25T14:55:53+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+
+[ 2018-06-25T14:56:16+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+
+[ 2018-06-25T14:56:37+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+
+[ 2018-06-25T15:05:07+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+
+[ 2018-06-25T15:05:25+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+
+[ 2018-06-25T15:05:28+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002658s ]
+
+[ 2018-06-25T15:05:37+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+
+[ 2018-06-25T15:05:40+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+
+[ 2018-06-25T15:05:45+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+
+[ 2018-06-25T15:05:46+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+
+[ 2018-06-25T15:05:46+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+
+[ 2018-06-25T15:05:46+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+
+[ 2018-06-25T15:05:46+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001654s ]
+
+[ 2018-06-25T15:05:46+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+
+[ 2018-06-25T15:05:46+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2018-06-25T15:05:46+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2018-06-25T15:05:47+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001349s ]
+
+[ 2018-06-25T15:05:47+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2018-06-25T15:05:47+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2018-06-25T15:05:47+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2018-06-25T15:05:59+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+
+[ 2018-06-25T15:06:03+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2018-06-25T15:06:03+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+
+[ 2018-06-25T15:07:05+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+
+[ 2018-06-25T15:07:06+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001346s ]
+
+[ 2018-06-25T15:07:06+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000724s ]
+
+[ 2018-06-25T15:07:38+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+
+[ 2018-06-25T15:07:40+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+
+[ 2018-06-25T15:07:40+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+
+[ 2018-06-25T15:08:29+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+
+[ 2018-06-25T15:08:30+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+
+[ 2018-06-25T15:08:30+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+
+[ 2018-06-25T15:09:25+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+
+[ 2018-06-25T15:09:26+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+
+[ 2018-06-25T15:09:26+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\blog\Application\Home\Controller\CommentController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2018-06-25T15:09:26+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+
+[ 2018-06-25T15:09:26+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\blog\Application\Home\Controller\CommentController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2018-06-25T15:09:44+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+
+[ 2018-06-25T15:09:45+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+
+[ 2018-06-25T15:09:45+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001269s ]
+
+[ 2018-06-25T15:09:56+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+
+[ 2018-06-25T15:09:57+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004496s ]
+
+[ 2018-06-25T15:09:57+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2018-06-25T15:09:57+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+
+[ 2018-06-25T15:09:57+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000931s ]
+
+[ 2018-06-25T15:10:12+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+
+[ 2018-06-25T15:10:12+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+
+[ 2018-06-25T15:10:12+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+
+[ 2018-06-25T15:10:17+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+
+[ 2018-06-25T15:10:17+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+
+[ 2018-06-25T15:10:17+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+
+[ 2018-06-25T15:10:17+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+
+[ 2018-06-25T15:10:17+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+
+[ 2018-06-25T15:10:18+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+
+[ 2018-06-25T15:10:18+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+
+[ 2018-06-25T15:10:33+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+
+[ 2018-06-25T15:10:34+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+
+[ 2018-06-25T15:10:34+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2018-06-25T15:10:34+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+
+[ 2018-06-25T15:10:34+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001092s ]
+
+[ 2018-06-25T15:11:20+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+
+[ 2018-06-25T15:11:20+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2018-06-25T15:11:20+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007063s ]
+
+[ 2018-06-25T15:11:22+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+
+[ 2018-06-25T15:11:22+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001184s ]
+
+[ 2018-06-25T15:11:37+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+
+[ 2018-06-25T15:11:38+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+
+[ 2018-06-25T15:11:38+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2018-06-25T15:11:38+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+
+[ 2018-06-25T15:11:38+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2018-06-25T15:11:39+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+
+[ 2018-06-25T15:11:39+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2018-06-25T15:11:52+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001302s ]
+
+[ 2018-06-25T15:11:53+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+
+[ 2018-06-25T15:11:53+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+ERR: Call to undefined function Home\Controller\iseet()
+
+[ 2018-06-25T15:11:53+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+
+[ 2018-06-25T15:11:53+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+ERR: Call to undefined function Home\Controller\iseet()
+
+[ 2018-06-25T15:12:14+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+
+[ 2018-06-25T15:12:14+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+
+[ 2018-06-25T15:12:14+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2018-06-25T15:12:15+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+
+[ 2018-06-25T15:12:15+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001312s ]
+
+[ 2018-06-25T15:12:47+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+
+[ 2018-06-25T15:12:48+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+
+[ 2018-06-25T15:12:48+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+
+[ 2018-06-25T15:12:48+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+
+[ 2018-06-25T15:12:49+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+
+[ 2018-06-25T15:12:49+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2018-06-25T15:12:49+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002570s ]
+
+[ 2018-06-25T15:12:49+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2018-06-25T15:12:50+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001405s ]
+
+[ 2018-06-25T15:13:17+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+
+[ 2018-06-25T15:13:18+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+
+[ 2018-06-25T15:13:18+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0013s ]
+ERR: Think\Model:insert方法不存在！
+
+[ 2018-06-25T15:15:47+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+
+[ 2018-06-25T15:16:59+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+
+[ 2018-06-25T15:17:02+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+
+[ 2018-06-25T15:17:02+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2018-06-25T15:17:35+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+
+[ 2018-06-25T15:17:36+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+
+[ 2018-06-25T15:17:36+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0007s ]
+SQL: INSERT INTO `comment` (`comment`,`uid`,`bid`,`pid`,`is_checked`,`create_time`,`del`) VALUES ('sdf','1','1','0','0','1529911056','0') [ RunTime:0.1491s ]
+
+[ 2018-06-25T15:26:15+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+
+[ 2018-06-25T15:26:21+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+
+[ 2018-06-25T15:26:22+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001721s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0007s ]
+SQL: INSERT INTO `comment` (`comment`,`uid`,`bid`,`pid`,`is_checked`,`create_time`,`del`) VALUES ('一定要加油','1','1','0','0','1529911582','0') [ RunTime:0.0844s ]
+
+[ 2018-06-25T15:26:23+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+
+[ 2018-06-25T15:26:23+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0010s ]
+SQL: INSERT INTO `comment` (`comment`,`uid`,`bid`,`pid`,`is_checked`,`create_time`,`del`) VALUES ('一定要加油','1','1','0','0','1529911583','0') [ RunTime:0.0463s ]
+
+[ 2018-06-25T19:54:34+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+
+[ 2018-06-25T19:54:34+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+
+[ 2018-06-25T19:54:46+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+
+[ 2018-06-25T19:54:46+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+
+[ 2018-06-25T19:55:09+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+
+[ 2018-06-25T19:55:09+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+
+[ 2018-06-25T19:55:48+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+
+[ 2018-06-25T19:55:48+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0007s ]
+SQL: INSERT INTO `comment` (`comment`,`uid`,`bid`,`pid`,`is_checked`,`create_time`,`del`) VALUES ('sdd','1','1','1','0','1529927748','0') [ RunTime:0.0843s ]
+
+[ 2018-06-25T19:56:04+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+
+[ 2018-06-25T19:56:05+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0094s ]
+SQL: INSERT INTO `comment` (`comment`,`uid`,`bid`,`pid`,`is_checked`,`create_time`,`del`) VALUES ('no ','1','1','1','0','1529927765','0') [ RunTime:0.0873s ]
+
+[ 2018-06-25T19:57:03+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+
+[ 2018-06-25T19:57:03+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0006s ]
+SQL: INSERT INTO `comment` (`comment`,`uid`,`bid`,`pid`,`is_checked`,`create_time`,`del`) VALUES ('nnn','1','1','3','0','1529927823','0') [ RunTime:0.0804s ]
+
+[ 2018-06-25T19:57:14+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+
+[ 2018-06-25T19:57:14+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0007s ]
+SQL: INSERT INTO `comment` (`comment`,`uid`,`bid`,`pid`,`is_checked`,`create_time`,`del`) VALUES ('women','1','1','4','0','1529927834','0') [ RunTime:0.1057s ]
+
+[ 2018-06-25T19:58:12+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+
+[ 2018-06-25T19:58:12+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0007s ]
+SQL: INSERT INTO `comment` (`comment`,`uid`,`bid`,`pid`,`is_checked`,`create_time`,`del`) VALUES ('buytao+','1','1','7','0','1529927892','0') [ RunTime:0.0891s ]
+
+[ 2018-06-25T19:59:39+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+
+[ 2018-06-25T19:59:45+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+
+[ 2018-06-25T19:59:46+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+
+[ 2018-06-25T19:59:46+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+
+[ 2018-06-25T19:59:46+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002123s ]
+
+[ 2018-06-25T19:59:46+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0006s ]
+SQL: INSERT INTO `comment` (`comment`,`uid`,`bid`,`pid`,`is_checked`,`create_time`,`del`) VALUES ('haha 我们的世界','1','1','0','0','1529927986','0') [ RunTime:0.0831s ]
+
+[ 2018-06-25T19:59:47+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+
+[ 2018-06-25T19:59:47+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0007s ]
+SQL: INSERT INTO `comment` (`comment`,`uid`,`bid`,`pid`,`is_checked`,`create_time`,`del`) VALUES ('haha 我们的世界','1','1','0','0','1529927987','0') [ RunTime:0.0867s ]
+
+[ 2018-06-25T19:59:47+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0006s ]
+SQL: INSERT INTO `comment` (`comment`,`uid`,`bid`,`pid`,`is_checked`,`create_time`,`del`) VALUES ('haha 我们的世界','1','1','0','0','1529927987','0') [ RunTime:0.0279s ]
+
+[ 2018-06-25T19:59:47+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0007s ]
+SQL: INSERT INTO `comment` (`comment`,`uid`,`bid`,`pid`,`is_checked`,`create_time`,`del`) VALUES ('haha 我们的世界','1','1','0','0','1529927987','0') [ RunTime:0.1550s ]
+
+[ 2018-06-25T19:59:47+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+
+[ 2018-06-25T19:59:47+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0006s ]
+SQL: INSERT INTO `comment` (`comment`,`uid`,`bid`,`pid`,`is_checked`,`create_time`,`del`) VALUES ('haha 我们的世界','1','1','0','0','1529927987','0') [ RunTime:0.0348s ]
+
+[ 2018-06-25T19:59:48+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004300s ]
+
+[ 2018-06-25T20:00:45+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+
+[ 2018-06-25T20:00:55+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001431s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0007s ]
+SQL: INSERT INTO `comment` (`comment`,`uid`,`bid`,`pid`,`is_checked`,`create_time`,`del`) VALUES ('我们的选择','1','1','0','0','1529928055','0') [ RunTime:0.0817s ]
+
+[ 2018-06-25T20:00:55+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+
+[ 2018-06-25T20:01:08+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+
+[ 2018-06-25T20:01:10+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+
+[ 2018-06-25T20:01:11+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0006s ]
+SQL: INSERT INTO `comment` (`comment`,`uid`,`bid`,`pid`,`is_checked`,`create_time`,`del`) VALUES ('我们','1','1','0','0','1529928070','0') [ RunTime:0.0884s ]
+
+[ 2018-06-25T20:06:28+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+
+[ 2018-06-25T20:06:32+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+
+[ 2018-06-25T20:06:32+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002177s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0007s ]
+SQL: INSERT INTO `comment` (`comment`,`uid`,`bid`,`pid`,`is_checked`,`create_time`,`del`) VALUES ('我么','1','1','0','0','1529928392','0') [ RunTime:0.0848s ]
+
+[ 2018-06-25T20:06:39+08:00 ] ::1 /blog/index.php/Comment/checkUserLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+
+[ 2018-06-25T20:06:39+08:00 ] ::1 /blog/index.php/Comment/addWords.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0011s ]
+SQL: INSERT INTO `comment` (`comment`,`uid`,`bid`,`pid`,`is_checked`,`create_time`,`del`) VALUES ('哈哈哈的世界','1','1','0','0','1529928399','0') [ RunTime:0.0849s ]
+

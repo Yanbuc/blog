@@ -1,0 +1,67 @@
+[ 2018-06-22T13:46:14+08:00 ] ::1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Index/checkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `users` WHERE `name` = 'yuege'  [ RunTime:0.0008s ]
+SQL: UPDATE `users` SET `tdy_login_times`='1',`last_login_time`='1529646374' WHERE `id` = 1 [ RunTime:0.1151s ]
+
+[ 2018-06-22T13:57:43+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Index/checkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003429s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\blog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `users` WHERE `name` = 'yuege'  [ RunTime:0.0011s ]
+SQL: UPDATE `users` SET `tdy_login_times`='2',`last_login_time`='1529647062' WHERE `id` = 1 [ RunTime:0.1150s ]
+
+[ 2018-06-22T13:57:56+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003406s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0055s ]
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' D:\phpStudy\WWW\blog\Application\Admin\Controller\CommentController.class.php 第 49 行.
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' D:\phpStudy\WWW\blog\Application\Admin\Controller\CommentController.class.php 第 50 行.
+SQL: UPDATE `comment` SET `is_checked`='1' WHERE `cid` = 3 [ RunTime:0.0010s ]
+
+[ 2018-06-22T13:57:57+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003472s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0015s ]
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' D:\phpStudy\WWW\blog\Application\Admin\Controller\CommentController.class.php 第 49 行.
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' D:\phpStudy\WWW\blog\Application\Admin\Controller\CommentController.class.php 第 50 行.
+SQL: UPDATE `comment` SET `is_checked`='0' WHERE `cid` = 3 [ RunTime:0.0009s ]
+
+[ 2018-06-22T13:57:58+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003465s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0025s ]
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' D:\phpStudy\WWW\blog\Application\Admin\Controller\CommentController.class.php 第 49 行.
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' D:\phpStudy\WWW\blog\Application\Admin\Controller\CommentController.class.php 第 50 行.
+SQL: UPDATE `comment` SET `is_checked`='1' WHERE `cid` = 1 [ RunTime:0.0011s ]
+
+[ 2018-06-22T13:58:00+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003450s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0076s ]
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' D:\phpStudy\WWW\blog\Application\Admin\Controller\CommentController.class.php 第 49 行.
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' D:\phpStudy\WWW\blog\Application\Admin\Controller\CommentController.class.php 第 50 行.
+SQL: UPDATE `comment` SET `is_checked`='1' WHERE `cid` = 3 [ RunTime:0.0010s ]
+
+[ 2018-06-22T13:58:02+08:00 ] 127.0.0.1 /blog/61a8a4bf9306e2e10aa0e446109be315348d9c14.php/Comment/checkComment.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003404s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0053s ]
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' D:\phpStudy\WWW\blog\Application\Admin\Controller\CommentController.class.php 第 49 行.
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' D:\phpStudy\WWW\blog\Application\Admin\Controller\CommentController.class.php 第 50 行.
+SQL: UPDATE `comment` SET `is_checked`='1' WHERE `cid` = 2 [ RunTime:0.0009s ]
+

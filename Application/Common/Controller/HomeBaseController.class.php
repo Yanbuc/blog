@@ -51,6 +51,24 @@ class HomeBaseController extends Controller
         }
 
     }
+    public function ajaxSuccess($data='',$status='',$information = ''){
+        $rn=array(
+            'data' => $data,
+            'status' => $status,
+            'information'  => $information
+        );
+        $this->ajaxReturn($rn);
+
+    }
+
+    public function ajaxError($data='',$status='',$information = ''){
+        $rn=array(
+            'data' => $data,
+            'status' => $status,
+            'information'  => $information
+        );
+        $this->ajaxReturn($rn);
+    }
 
 
 }
